@@ -75,8 +75,8 @@ body #page {
 	-webkit-transition: all 400ms linear;
 }
 body .event-group {
-	width: 50%;
-	margin: 0 auto 20px;
+	width: 625px;
+	margin: 0 auto 45px;
 	position: relative;
 	left: 0;
 	right: 0;
@@ -88,7 +88,7 @@ body img.bc-logo:nth-child(1) {
 	display: inline;
 	margin: 0 20px;
 }
-body img.bc-logo:nth-child(2) {
+body img.bc-logo:nth-child(2), body img.bc-logo:nth-child(3) {
 	width: 170px;
 	display: inline;
 	margin: 0 20px;
@@ -372,7 +372,7 @@ header .container > hr {
 	right: -15%;
 	z-index: 999;
 }
-#scene2 .layer.pic1, #scene2 .layer.pic2, #scene2 .layer.pic3, #scene2 .layer.pic5, #scene2 .layer.pic6, #scene2 .layer.pic7, #scene2 .layer.pic8, #scene2 .layer.pic9, #scene2 .layer.pic10, #scene2 .layer.pic11, #scene2 .layer.pic12, #scene2 .layer.pic13, #scene2 .layer.pic14, #scene2 .layer.pic15, #scene2 .layer.pic16, #scene2 .layer.pic17, #scene2 .layer.pic18, #scene2 .layer.pic19 {
+#scene2 .layer.pic1, #scene2 .layer.pic2, #scene2 .layer.pic3, #scene2 .layer.pic4, #scene2 .layer.pic5, #scene2 .layer.pic6, #scene2 .layer.pic7, #scene2 .layer.pic8, #scene2 .layer.pic9, #scene2 .layer.pic10, #scene2 .layer.pic11, #scene2 .layer.pic12, #scene2 .layer.pic13, #scene2 .layer.pic14, #scene2 .layer.pic15, #scene2 .layer.pic16, #scene2 .layer.pic17, #scene2 .layer.pic18, #scene2 .layer.pic19 {
 	left: -500%;
 	opacity: 0.55;
 }
@@ -390,6 +390,11 @@ header .container > hr {
 	left: 25%;
 	top: 25% !important;
 	width: 90px;
+}
+#scene2 .layer.pic4 {
+	left: 35%;
+	top: 78% !important;
+	width: 125px;
 }
 #scene2 .layer.pic5 {
 	left: 13%;
@@ -487,7 +492,7 @@ header .container > hr {
 	left: -15%;
 	z-index: 999;
 }
-#scene3 .layer.pic1, #scene3 .layer.pic2, #scene3 .layer.pic3, 
+#scene3 .layer.pic1, #scene3 .layer.pic2, #scene3 .layer.pic3, #scene3 .layer.pic4,
 #scene3 .layer.pic5, #scene3 .layer.pic6, #scene3 .layer.pic7, 
 #scene3 .layer.pic8, #scene3 .layer.pic9, #scene3 .layer.pic10, 
 #scene3 .layer.pic11, #scene3 .layer.pic12, #scene3 .layer.pic13, 
@@ -510,6 +515,11 @@ header .container > hr {
 	left: 30%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene3 .layer.pic4 {
+	left: 80%;
+	top: 75% !important;
+	width: 150px;
 }
 #scene3 .layer.pic5 {
 	left: 13%;
@@ -606,7 +616,7 @@ header .container > hr {
   height: auto;
   z-index: 999;
 }
-#scene4 .layer.pic1, #scene4 .layer.pic2, #scene4 .layer.pic3, #scene4 .layer.pic5, #scene4 .layer.pic6, 
+#scene4 .layer.pic1, #scene4 .layer.pic2, #scene4 .layer.pic3, #scene4 .layer.pic4, #scene4 .layer.pic5, #scene4 .layer.pic6, 
 #scene4 .layer.pic7, #scene4 .layer.pic8, #scene4 .layer.pic9, #scene4 .layer.pic10, #scene4 .layer.pic11, 
 #scene4 .layer.pic12, #scene4 .layer.pic13, #scene4 .layer.pic14, #scene4 .layer.pic15, #scene4 .layer.pic16, 
 #scene4 .layer.pic17, #scene4 .layer.pic18, #scene4 .layer.pic19 {
@@ -627,6 +637,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene4 .layer.pic4 {
+	left: 5%;
+	top: 5% !important;
+	width: 100px;
 }
 #scene4 .layer.pic5 {
 	left: 13%;
@@ -723,7 +738,7 @@ header .container > hr {
   left: -15%;
   z-index: 999;
 }
-#scene5 .layer.pic1, #scene5 .layer.pic2, #scene5 .layer.pic3, #scene5 .layer.pic5, #scene5 .layer.pic6, 
+#scene5 .layer.pic1, #scene5 .layer.pic2, #scene5 .layer.pic3, #scene5 .layer.pic4, #scene5 .layer.pic5, #scene5 .layer.pic6, 
 #scene5 .layer.pic7, #scene5 .layer.pic8, #scene5 .layer.pic9, #scene5 .layer.pic10, #scene5 .layer.pic11, 
 #scene5 .layer.pic12, #scene5 .layer.pic13, #scene5 .layer.pic14, #scene5 .layer.pic15, #scene5 .layer.pic16, 
 #scene5 .layer.pic17, #scene5 .layer.pic18, #scene5 .layer.pic19 {
@@ -744,6 +759,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene5 .layer.pic4 {
+	left: 80%;
+	top: 65% !important;
+	width: 175px;
 }
 #scene5 .layer.pic5 {
 	left: 35%;
@@ -840,7 +860,7 @@ header .container > hr {
   height: auto;
   z-index: 999;
 }
-#scene6 .layer.pic1, #scene6 .layer.pic2, #scene6 .layer.pic3, #scene6 .layer.pic5, 
+#scene6 .layer.pic1, #scene6 .layer.pic2, #scene6 .layer.pic3, #scene6 .layer.pic4, #scene6 .layer.pic5, 
 #scene6 .layer.pic6, #scene6 .layer.pic7, #scene6 .layer.pic8, #scene6 .layer.pic9, 
 #scene6 .layer.pic10, #scene6 .layer.pic11, #scene6 .layer.pic12, #scene6 .layer.pic13, 
 #scene6 .layer.pic14, #scene6 .layer.pic15, #scene6 .layer.pic16, #scene6 .layer.pic17, 
@@ -862,6 +882,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene6 .layer.pic4 {
+	left: 30%;
+	top: 55% !important;
+	width: 135px;
 }
 #scene6 .layer.pic5 {
 	left: 13%;
@@ -958,7 +983,7 @@ header .container > hr {
   left: -15%;
   z-index: 999;
 }
-#scene7 .layer.pic1, #scene7 .layer.pic2, #scene7 .layer.pic3, #scene7 .layer.pic5, 
+#scene7 .layer.pic1, #scene7 .layer.pic2, #scene7 .layer.pic3, #scene7 .layer.pic4, #scene7 .layer.pic5, 
 #scene7 .layer.pic6, #scene7 .layer.pic7, #scene7 .layer.pic8, #scene7 .layer.pic9, 
 #scene7 .layer.pic10, #scene7 .layer.pic11, #scene7 .layer.pic12, #scene7 .layer.pic13, 
 #scene7 .layer.pic14, #scene7 .layer.pic15, #scene7 .layer.pic16, #scene7 .layer.pic17, 
@@ -979,6 +1004,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene7 .layer.pic4 {
+	left: 80%;
+	top: 65% !important;
+	width: 185px;
 }
 #scene7 .layer.pic5 {
 	left: 13%;
@@ -1074,7 +1104,7 @@ header .container > hr {
   height: auto;
   left: -15%;
 }
-#scene8 .layer.pic1, #scene8 .layer.pic2, #scene8 .layer.pic3, #scene8 .layer.pic5, 
+#scene8 .layer.pic1, #scene8 .layer.pic2, #scene8 .layer.pic3,  #scene8 .layer.pic4, #scene8 .layer.pic5, 
 #scene8 .layer.pic6, #scene8 .layer.pic7, #scene8 .layer.pic8, #scene8 .layer.pic9, 
 #scene8 .layer.pic10, #scene8 .layer.pic11, #scene8 .layer.pic12, #scene8 .layer.pic13, 
 #scene8 .layer.pic14, #scene8 .layer.pic15, #scene8 .layer.pic16, #scene8 .layer.pic17, 
@@ -1095,6 +1125,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene8 .layer.pic4 {
+	left: 80%;
+	top: 60% !important;
+	width: 220px;
 }
 #scene8 .layer.pic5 {
 	left: 13%;
@@ -1191,7 +1226,7 @@ header .container > hr {
   left: -15%;
   z-index: 999;
 }
-#scene9 .layer.pic1, #scene9 .layer.pic2, #scene9 .layer.pic3, #scene9 .layer.pic5, 
+#scene9 .layer.pic1, #scene9 .layer.pic2, #scene9 .layer.pic3, #scene9 .layer.pic4, #scene9 .layer.pic5, 
 #scene9 .layer.pic6, #scene9 .layer.pic7, #scene9 .layer.pic8, #scene9 .layer.pic9, 
 #scene9 .layer.pic10, #scene9 .layer.pic11, #scene9 .layer.pic12, #scene9 .layer.pic13, 
 #scene9 .layer.pic14, #scene9 .layer.pic15, #scene9 .layer.pic16, #scene9 .layer.pic17, 
@@ -1212,6 +1247,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene9 .layer.pic4 {
+	left: 2%;
+	top: 5% !important;
+	width: 140px;
 }
 #scene9 .layer.pic5 {
 	left: 13%;
@@ -1508,17 +1548,20 @@ footer .container .ticket-info {
 	width: 60%;    
 	text-align: left;    
 	float: right;
-	margin: 30px 0;
+	margin: 10px 0;
 }
 footer .container .ticket-info > h1 {
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: none;
-	line-height: 10px;
+	line-height: 5px;
+	float: none;
+	display: block;
 }
-footer .container .ticket-info > h1.deposit-info {
+footer .container .ticket-info > h1.deposit-info, 
+footer .container .ticket-info > h1.ticket-link {
 	line-height: 0;
-	margin: 8px 0 0;
+	margin: 20px 0 0;
 }
 footer .container .ticket-info h1 a {
 	padding: 2px;
@@ -1537,7 +1580,7 @@ footer .container .ticket-info h1 a {
 	opacity: 0;
 	cursor: default;
 	pointer-events: none;
-	bottom: -90%;
+	bottom: -45%;
 }
 .ip-header .ip-loader svg path {
 	fill: none;
@@ -1703,6 +1746,9 @@ footer .container .ticket-info h1 a {
 	width: 45%;
 	top: 3%;
 }
+#about .text-container {
+	left: -500%;
+}
 #harvey .text-container, #april .text-container, #lesterCarlo .text-container  {
   float: right;
   right: -130%;
@@ -1716,22 +1762,29 @@ footer .container .ticket-info h1 a {
   line-height: 30px;
   font-size: 20px;
 }
+#about .text-container {
+	left: 0;
+}
 #about .text-container header, #sponsors .text-container header {
     position: relative;
     float: none;
-    left: 0;
     width: 100%;
     text-align: center;
     margin: 5em auto 4em;
+    left: 0;
 }
 #sponsors .text-container header h1 {
     font-weight: 800;
     font-size: 30px;
     line-height: 40px;
+    position: relative;
+    left: -500%;
 }
 #about .text-container header h4, #sponsors .text-container header h4 {
     font-size: 20px;
     font-weight: 800;
+    position: relative;
+    right: -500%;
 }
 #about .text-container p, #sponsors .text-container p {
 	color: #fff;
@@ -1744,6 +1797,8 @@ footer .container .ticket-info h1 a {
 	
 	font-size: 14px;
 	line-height: 25px;
+	left: -500%;
+	position: relative;
 }
 #jojie header, #harvey header, #marvin header, #april header, #patrick header, #lesterCarlo header, #venue header {
   position: relative;
@@ -1765,6 +1820,10 @@ footer .container .ticket-info h1 a {
 	width: 100%;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
 	font-weight: bold;
+}
+#about h1.about-title {
+	left: -500%;
+	position: relative;
 }
 #venue h1 .fa-iconset {
     display: inline-block;
@@ -1938,6 +1997,7 @@ footer .container .ticket-info h1 a {
 #about .portfolio {
     position: relative;
     margin: 2em auto;
+    right: -500%;
 }
 .portfolio ul {
   display: block;
@@ -2015,7 +2075,7 @@ footer .container .ticket-info h1 a {
   width: 100%;
   height: auto;
   padding: 0;
-  margin: 1em auto 2em;
+  margin: 5px auto 15px;
   z-index: 100;
 }
 .sponsor-wrapper ul {
@@ -2041,6 +2101,18 @@ footer .container .ticket-info h1 a {
   -moz-user-select: none;   
   -ms-user-select: none;  
   user-select: none;
+}
+.gold-sponsors, .silver-sponsors, .bronze-sponsors, .media-partners, .special-thanks {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.gold-sponsors, .bronze-sponsors, .media-partners {
+    left: -500%;
+}
+.silver-sponsors, .minor-sponsors, .special-thanks {
+    right: -500%;
 }
 .sponsor-wrapper#gold-sponsors ul li {
     width: 230px;
@@ -2283,7 +2355,7 @@ footer .container .ticket-info h1 a {
 		margin: 20px 0 0;
 	}
 	#venue .fa-iconset {
-    	margin: 25px 0 0;
+  	margin: 25px 0 0;
 	}
 
 	/* Full Page */
