@@ -369,7 +369,7 @@ header .container > hr {
 	width: 115px;
 	top: 45%;
 	height: auto;
-	right: -15%;
+	right: -100%;
 	z-index: 999;
 }
 #scene2 .layer.pic1, #scene2 .layer.pic2, #scene2 .layer.pic3, #scene2 .layer.pic4, #scene2 .layer.pic5, #scene2 .layer.pic6, #scene2 .layer.pic7, #scene2 .layer.pic8, #scene2 .layer.pic9, #scene2 .layer.pic10, #scene2 .layer.pic11, #scene2 .layer.pic12, #scene2 .layer.pic13, #scene2 .layer.pic14, #scene2 .layer.pic15, #scene2 .layer.pic16, #scene2 .layer.pic17, #scene2 .layer.pic18, #scene2 .layer.pic19 {
@@ -489,7 +489,7 @@ header .container > hr {
 	width: 115px;
 	top: 45%;
 	height: auto;
-	left: -15%;
+	left: -100%;
 	z-index: 999;
 }
 #scene3 .layer.pic1, #scene3 .layer.pic2, #scene3 .layer.pic3, #scene3 .layer.pic4,
@@ -610,7 +610,7 @@ header .container > hr {
 
 /* Scene 4 */
 #scene4 .layer.main {
-  right: -15%;
+  right: -100%;
   width: 100px;
   top: 45%;
   height: auto;
@@ -735,7 +735,7 @@ header .container > hr {
   width: 115px;
   top: 45%;
   height: auto;
-  left: -15%;
+  left: -100%;
   z-index: 999;
 }
 #scene5 .layer.pic1, #scene5 .layer.pic2, #scene5 .layer.pic3, #scene5 .layer.pic4, #scene5 .layer.pic5, #scene5 .layer.pic6, 
@@ -855,7 +855,7 @@ header .container > hr {
 /* Scene 6 */
 #scene6 .layer.main {
   width: 150px;
-  right: -12%;        
+  right: -100%;        
   top: 45%;    
   height: auto;
   z-index: 999;
@@ -980,7 +980,7 @@ header .container > hr {
   width: 175px;
   top: 50%;
   height: auto;
-  left: -15%;
+  left: -100%;
   z-index: 999;
 }
 #scene7 .layer.pic1, #scene7 .layer.pic2, #scene7 .layer.pic3, #scene7 .layer.pic4, #scene7 .layer.pic5, 
@@ -1102,7 +1102,7 @@ header .container > hr {
   width: 175px;
   top: 50%;
   height: auto;
-  left: -15%;
+  left: -100%;
 }
 #scene8 .layer.pic1, #scene8 .layer.pic2, #scene8 .layer.pic3,  #scene8 .layer.pic4, #scene8 .layer.pic5, 
 #scene8 .layer.pic6, #scene8 .layer.pic7, #scene8 .layer.pic8, #scene8 .layer.pic9, 
@@ -1223,7 +1223,7 @@ header .container > hr {
   width: 175px;
   top: 50%;
   height: auto;
-  left: -15%;
+  left: -100%;
   z-index: 999;
 }
 #scene9 .layer.pic1, #scene9 .layer.pic2, #scene9 .layer.pic3, #scene9 .layer.pic4, #scene9 .layer.pic5, 
@@ -1345,9 +1345,9 @@ header .container > hr {
   width: 175px;
   top: 50%;
   height: auto;
-  left: -15%;
+  left: -100%;
 }
-#scene10 .layer.pic1, #scene10 .layer.pic2, #scene10 .layer.pic3, #scene10 .layer.pic5, 
+#scene10 .layer.pic1, #scene10 .layer.pic2, #scene10 .layer.pic3, #scene10 .layer.pic4, #scene10 .layer.pic5, 
 #scene10 .layer.pic6, #scene10 .layer.pic7, #scene10 .layer.pic8, #scene10 .layer.pic9, 
 #scene10 .layer.pic10, #scene10 .layer.pic11, #scene10 .layer.pic12, #scene10 .layer.pic13, 
 #scene10 .layer.pic14, #scene10 .layer.pic15, #scene10 .layer.pic16, #scene10 .layer.pic17, 
@@ -1368,6 +1368,11 @@ header .container > hr {
 	left: 24%;
 	top: 42% !important;
 	width: 90px;
+}
+#scene10 .layer.pic4 {
+	left: 80%;
+	top: 60% !important;
+	width: 220px;
 }
 #scene10 .layer.pic5 {
 	left: 13%;
@@ -1496,7 +1501,7 @@ footer .social-media ul li a {
 	font-size: 20px;
 }
 footer .container {
-	width: 500px;
+	width: 450px;
 	right: 0;
 	position: absolute;        
 	height: auto;    
@@ -1520,7 +1525,7 @@ footer .container .title-text {
 }
 footer .container .ticket-cost {
 	float: left;
-	width: 35%;
+	width: 40%;
 	display: block;
 	border: 3px solid #FFFFFF;
 	padding: 10px 5px 5px;
@@ -1545,14 +1550,14 @@ footer .container .ticket-info {
 	display: block;
 	line-height: 12px;    
 	font-weight: 500;    
-	width: 60%;    
+	width: 55%;    
 	text-align: left;    
-	float: right;
-	margin: 10px 0;
+	float: left;
+	margin: 20px 0;
 }
 footer .container .ticket-info > h1 {
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 	text-transform: none;
 	line-height: 5px;
 	float: none;
@@ -1560,14 +1565,66 @@ footer .container .ticket-info > h1 {
 }
 footer .container .ticket-info > h1.deposit-info, 
 footer .container .ticket-info > h1.ticket-link {
-	line-height: 0;
-	margin: 20px 0 0;
+	line-height: 20px;
+	margin: 0;
 }
 footer .container .ticket-info h1 a {
 	padding: 2px;
 	text-decoration: none;
 	color: #fff;
 	border-bottom: 1px solid;
+	outline: none;
+}
+.modal.in .modal-dialog {
+	top: 0 !important;
+}
+#ticketModal .modal-header .close {
+	color: #fff;
+	opacity: 0.75;
+	margin: 5px 0 0;
+}
+#ticketModal .modal-header {
+	background: #fea500;
+	color: #fff;
+	border: 0;
+	padding: 1.25em;
+}
+#ticketModal .modal-header h4 {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#ticketModal .modal-body {
+	padding: 2em 2em 1.5em;
+}
+#ticketModal .modal-footer {
+	display: none;
+}
+#ticketModal .row p {
+	text-align: center;
+	display: block;
+	padding: 1em 0 1.25em;
+	font-weight: bold;
+	font-size: 13px;
+}
+#ticketModal .row .ticket-redirect-links {
+    width: 75px;
+
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#ticketModal .row .ticket-redirect-links i {
+    display: inline-block;
+
+    width: 20%;
+    margin: 0 10px;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
 }
 
 /* loader */
@@ -2152,6 +2209,56 @@ footer .container .ticket-info h1 a {
   padding: 0;
   display: block;
   margin: 5px auto;
+}
+.credits {
+	display: block;
+	margin: 10em auto 0;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+}
+.credits img {
+	display: inline-block;
+	margin: 0 20px 40px;
+	padding: 0;
+}
+.credits img:first-child {
+	width: 180px;
+}
+.credits img:nth-child(2) {
+	width: 420px;
+}
+.credits img:nth-child(3) {
+	width: 180px;
+}
+.credits h3, .credits h4 {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+.credits h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.credits h4 {
+	font-size: 15px;
+	font-weight: 700;
+}
+.credits a {
+	color: #fff;
+	border-bottom: dotted 2px #fff;
+	padding: 0 0 2px;
+	text-decoration: none;
+}
+.social-media-bottom {
+    width: 200px;
+    margin: 30px auto;
+    display: block;
+}
+.social-media-bottom ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+.social-media-bottom ul li a {
+	color: #fff;
 }
 
 /* FullPage.js additions */
