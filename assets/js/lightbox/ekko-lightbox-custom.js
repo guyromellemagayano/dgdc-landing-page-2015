@@ -9,15 +9,7 @@ $(document).ready(function ($) {
   $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox({
-      always_show_close: true,
-      onContentLoaded: function() {
-        var topHeight = Centering.image($(window),$('.modal-dialog'),52);
-        $('.modal-dialog').css('top', topHeight);
-      },
-      onNavigate: function() {
-        var topHeight = Centering.image($(window),$('.modal-dialog'),52);
-        $('.modal-dialog').css('top', topHeight);
-      }
+      always_show_close: true
     });
   });
 
