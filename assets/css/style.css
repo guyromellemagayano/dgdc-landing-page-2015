@@ -287,16 +287,14 @@ header .container > hr {
   margin: 0;
 }
 #scene .layer.main {
-  width: 100%;
-  left: 0 !important;
-  right: 0 !important;
+  width: 95%;
   z-index: 1;
 }
 
 /* Scene 1 */
 #scene .layer.main {
   top: -150%;
-  right: 0;
+  right: 3%;
 }
 #scene .layer.pic1, #scene .layer.pic2, #scene .layer.pic3, #scene .layer.pic4, #scene .layer.pic5, #scene .layer.pic6, #scene .layer.pic7, #scene .layer.pic8, #scene .layer.pic9, #scene .layer.pic10, #scene .layer.pic11, #scene .layer.pic12, #scene .layer.pic13, #scene .layer.pic14, #scene .layer.pic15, #scene .layer.pic16, #scene .layer.pic17, #scene .layer.pic18, #scene .layer.pic19 {
   top: -1000%;
@@ -2214,26 +2212,30 @@ footer .container .ticket-info h1 a {
   -ms-user-select: none;  
   user-select: none;
 }
-.gold-sponsors, .silver-sponsors, .bronze-sponsors, .media-partners, .special-thanks {
+.gold-sponsors, .partners, .silver-sponsors, .bronze-sponsors, .media-partners, .special-thanks {
   position: relative;
   display: block;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 80%;
 }
-.gold-sponsors, .bronze-sponsors, .media-partners {
+.gold-sponsors, .silver-sponsors, .minor-sponsors, .special-thanks {
     left: -500%;
 }
-.silver-sponsors, .minor-sponsors, .special-thanks {
+.partners, .bronze-sponsors, .media-partners {
     right: -500%;
 }
 .sponsor-wrapper#gold-sponsors ul li {
     width: 230px;
 }
+.sponsor-wrapper#partners ul li {
+    width: 210px;
+}
 .sponsor-wrapper#silver-sponsors ul li {
-  width: 200px;
+    width: 200px;
 }
 .sponsor-wrapper#bronze-sponsors ul li {
-  width: 180px;
+    width: 180px;
 }
 .sponsor-wrapper#silver-sponsors ul li img,
 .sponsor-wrapper#media-partners ul li img,
@@ -2259,11 +2261,12 @@ footer .container .ticket-info h1 a {
   -o-transform: scale(0.95);
 }
 .sponsor-wrapper ul li img {
-  width: auto;
+  width: 100%;
   height: auto;
-  padding: 0;
+  padding: 15px;
   display: block;
   margin: 5px auto;
+  float: none;
 }
 .credits {
   display: block;
@@ -2388,7 +2391,6 @@ footer .container .ticket-info h1 a {
 .slimScrollBar {
   border-radius: 0 !important;
   background: #fff !important;
-  right: 5px !important;
 }
 
 /* ----------- Non-Retina Screens ----------- */
