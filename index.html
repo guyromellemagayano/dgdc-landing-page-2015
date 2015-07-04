@@ -122,48 +122,6 @@
 			<li data-menuanchor="sponsors-credits"><a href="#sponsors-credits">Sponsors/Credits</a></li>
 		</ul>
 
-		<div class="modal fade" id="ticketModal" tabindex="-1" role="dialog" aria-labelledby="ticketModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="ticketModalLabel">Ticketing Outlets</h4>
-					</div>
-					<div class="modal-body">
-						<div class="row">
-							<div class="col-md-4">
-								<img src="assets/img/sponsors/yellowhauz.png" class="img-responsive ticket-shop-1" draggable="false" />
-								<p>Coffee at Yellow Hauz</p>
-								<div class="ticket-redirect-links">
-									<a href="https://www.google.com/maps/place/Coffe+at+Yellow+Hauz/@7.075729,125.606641,17z/data=!4m7!1m4!3m3!1s0x32f96d74e17f56db:0xc0436864b68e2b5!2sCoffe+at+Yellow+Hauz!3b1!3m1!1s0x32f96d74e17f56db:0xc0436864b68e2b5?hl=en-US" target="_blank"><i class="fa fa-map-marker">&nbsp;</i></a>
-									<a href="https://www.facebook.com/yellowhauz" target="_blank"><i class="fa fa-info">&nbsp;</i></a>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<img src="assets/img/sponsors/balikBukid.png" class="img-responsive ticket-shop-2" draggable="false" />
-								<p>Balik Bukid</p>
-								<div class="ticket-redirect-links">
-									<a href="https://www.google.com.ph/maps/place/Balik+Bukid+Farm+%26+Kitchen/@7.056749,125.600226,17z/data=!4m6!1m3!3m2!1s0x32f972831715db0b:0xee53f88de0540c1b!2sPark+Square+Inn+%26+Restaurant!3m1!1s0x0000000000000000:0xb90ae3b3a23ace7e" target="_blank"><i class="fa fa-map-marker">&nbsp;</i></a>
-									<a href="https://www.facebook.com/balikbukidako" target="_blank"><i class="fa fa-info">&nbsp;</i></a>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<img src="assets/img/sponsors/mangatoshokan.png" class="img-responsive ticket-shop-3" draggable="false" />
-								<p>Manga Toshokan</p>
-								<div class="ticket-redirect-links">
-									<a href="https://www.bing.com/maps/default.aspx?v=2&pc=FACEBK&mid=8100&rtp=adr.~pos.7.07186_125.61158_Manga+Toshokan_Doors+4+and+5%2C+Belfran+Bldg.%2C+Palma+Gil+St.+cor.+CM+Recto+St.%2C+8000+Davao+City&cp=7.07186~125.61158&lvl=16&sty=r&rtop=0~0~0~&mode=D&FORM=FBKPL6&mkt=en-US" target="_blank"><i class="fa fa-map-marker">&nbsp;</i></a>
-									<a href="https://www.facebook.com/mangatoshokancafe" target="_blank"><i class="fa fa-info">&nbsp;</i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<div id="fullpage">
 			<div class="section active" id="welcome">
 				<header>
@@ -236,12 +194,8 @@
 							</h1>
 							<br/>
 							<h1 class="ticket-link">For tickets: 
-								<a href="#" data-toggle="modal" data-target="#ticketModal">Click Here</a>
+								<a data-menuanchor="get-tickets" href="#get-tickets">Click Here</a>
 							</h1>
-						</div>
-						<div class="ticket-cost">
-							<h1>Conference Ticket</h1>
-							<h1 class="cost">P 500</h1>
 						</div>
 					</div>
 				</footer>
@@ -704,18 +658,21 @@
 							<ul>
 								<li class="img-portfolio">
 									<a href="assets/img/graphicon2011.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="aboutGallery">
-										<img src="assets/img/graphicon2011.jpg"/>
+										<img src="assets/img/graphicon2011.jpg" alt="graphicondavao2011" />
 									</a>
+                  <span class="year-img">2011</span>
 								</li>
 								<li class="img-portfolio">
 									<a href="assets/img/graphicon2012.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="aboutGallery">
-										<img src="assets/img/graphicon2012.jpg"/>
+										<img src="assets/img/graphicon2012.jpg" alt="graphicondavao2012" />
 									</a>
+                  <span class="year-img">2012</span>
 								</li>
 								<li class="img-portfolio">
 									<a href="assets/img/graphicon2013.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="aboutGallery">
-										<img src="assets/img/graphicon2013.jpg"/>
+										<img src="assets/img/graphicon2013.jpg" alt="graphicondavao2014" />
 									</a>
+                  <span class="year-img">2013</span>
 								</li>
 							</ul>
 						</div>
@@ -863,87 +820,124 @@
 			</div>
 
 			<div class="section" id="tickets">
-				<div class="text-container">
-					<header>
-						<h1 class="venue-title">
-							Event Schedule &nbsp;
-						</h1>
-					</header>
-					<header>
-						<h1>SMX Convention Center</h1>
-						<h4>3rd Level, SM Lanang Premier, J.P. Laurel Ave., Lanang, 8000, Davao City, Philippines</h4>
-						<div class="fa-iconset">
-							<a href="https://www.google.com/maps?ll=7.098214,125.630645&z=10&t=m&hl=en-US&gl=US&mapclient=embed&cid=2316490329104187282" target="_blank"><i class="fa fa-map-marker">&nbsp;</i></a>
-							<a href="http://smxconventioncenter.com/experience-smx/smx-davao/overview" target="_blank"><i class="fa fa-link">&nbsp;</i></a>
-						</div>
-						<br/>
-					</header>
-					<br/>
-					<header>
-						<h1>Registration Starts at 8 AM</h1>
-						<h4>Event Proper: 9 AM to 5 PM</h4>
-						<h4>Break: 12 NN to 1 PM</h4>
-					</header>
-				</div>
-				<div class="img-holder" id="img-holder">
-					<div class="container">
-						<ul id="scene9" class="scene9">
-							<div class="portfolio page-container" id="portfolio">
-								<ul>
-									<li class="img-portfolio">
-										<a href="assets/img/smxdavao.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="venueGallery">
-											<img src="assets/img/smxdavao.jpg"/>
-										</a>
-									</li>
-									<li class="img-portfolio">
-										<a href="assets/img/smxdavao2.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="venueGallery">
-											<img src="assets/img/smxdavao2.jpg"/>
-										</a>
-									</li>
-									<li class="img-portfolio">
-										<a href="assets/img/smxdavao3.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="venueGallery">
-											<img src="assets/img/smxdavao3.jpg"/>
-										</a>
-									</li>
-									<li class="img-portfolio">
-										<a href="assets/img/smxdavao4.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="venueGallery">
-											<img src="assets/img/smxdavao4.jpg"/>
-										</a>
-									</li>
-									<li class="img-portfolio">
-										<a href="assets/img/smxdavao5.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="venueGallery">
-											<img src="assets/img/smxdavao5.jpg"/>
-										</a>
-									</li>
-									<li class="img-portfolio">
-										<a href="assets/img/smxdavao6.jpg" class="portfolio-link" data-toggle="lightbox" data-gallery="venueGallery">
-											<img src="assets/img/smxdavao6.jpg"/>
-										</a>
-									</li>
-								</ul>
-							</div>
-							<li class="layer pic1" data-depth="0.10"><img src="assets/img/big-cloud-top-isometric.png" class="img-responsive"></li>
-							<li class="layer pic2" data-depth="0.15"><img src="assets/img/big-cloud-top-2-isometric.png" class="img-responsive"></li>
-							<li class="layer pic3" data-depth="0.20"><img src="assets/img/big-cloud-top-3-isometric.png" class="img-responsive"></li>
-							<li class="layer pic4" data-depth="0.25"><img src="assets/img/helicopter-isometric.png" class="img-responsive"></li>
-							<li class="layer pic5" data-depth="0.30"><img src="assets/img/big-cloud-middle-isometric.png" class="img-responsive"></li>
-							<li class="layer pic6" data-depth="0.35"><img src="assets/img/big-cloud-middle-2-isometric.png" class="img-responsive"></li>
-							<li class="layer pic7" data-depth="0.40"><img src="assets/img/big-cloud-middle-3-isometric.png" class="img-responsive"></li>
-							<li class="layer pic8" data-depth="0.45"><img src="assets/img/big-cloud-middle-4-isometric.png" class="img-responsive"></li>
-							<li class="layer pic9" data-depth="0.50"><img src="assets/img/big-cloud-bottom-isometric.png" class="img-responsive"></li>
-							<li class="layer pic10" data-depth="0.55"><img src="assets/img/big-cloud-bottom-2-isometric.png" class="img-responsive"></li>
-							<li class="layer pic11" data-depth="0.60"><img src="assets/img/big-cloud-bottom-3-isometric.png" class="img-responsive"></li>
-							<li class="layer pic12" data-depth="0.65"><img src="assets/img/big-cloud-middle-isometric.png" class="img-responsive"></li>
-							<li class="layer pic13" data-depth="0.70"><img src="assets/img/big-cloud-middle-2-isometric.png" class="img-responsive"></li>
-							<li class="layer pic14" data-depth="0.75"><img src="assets/img/big-cloud-middle-3-isometric.png" class="img-responsive"></li>
-							<li class="layer pic15" data-depth="0.80"><img src="assets/img/big-cloud-middle-4-isometric.png" class="img-responsive"></li>
-							<li class="layer pic16" data-depth="0.85"><img src="assets/img/big-cloud-bottom-isometric.png" class="img-responsive"></li>
-							<li class="layer pic17" data-depth="0.90"><img src="assets/img/big-cloud-bottom-2-isometric.png" class="img-responsive"></li>
-							<li class="layer pic18" data-depth="0.95"><img src="assets/img/big-cloud-bottom-3-isometric.png" class="img-responsive"></li>
-							<li class="layer pic19" data-depth="1.00"><img src="assets/img/big-cloud-top-isometric.png" class="img-responsive"></li>
-						</ul>
-					</div>
-				</div>
+        <div class="text-container">
+          <header>
+            <h1>Get Tickets</h1>
+            <h4>Over 500+ Attendees to date! <br/>Limited tickets still available!</h4>
+          </header>
+          <div class="ticket-pass">
+            <span class="round-bg">
+              <img src="assets/img/ticket-gc4.jpg" class="img-responsive" draggable="false" alt="ticket-gc4" />
+              <h4>Conference Pass</h4>
+              <h1>₱ 500</h1>
+              <p>Limited Offer Only!</p>
+            </span>
+            <br/>
+            <h1>What You Get From The Event?</h1>
+            <ul class="col-md-9">
+              <li class="col-md-4">
+                <h3>Event Admission</h3>
+                <p>The premiere graphic design conference here in Davao City!</p>
+              </li>
+              <li class="col-md-4">
+                <h3>E-Certificate of Attendance</h3>
+                <p>Proof of your participation in Graphicon Davao 2015</p>
+              </li>
+              <li class="col-md-4">
+                <h3>Exclusive Freebies</h3>
+                <p>Lots of free and exclusive stuff for you in store within the event!</p>
+              </li>
+            </ul>
+            <span class="bank-depo">
+              <a href="https://www.facebook.com/GraphiConDavao/photos/a.145937838881319.35048.142385732569863/559422617532837/?type=1&__mref=message_bubble" target="_blank" class="btn btn-bank-depo">
+                <p>Buy tickets via</p>
+                <h2>Bank Deposit</h2>
+              </a>
+            </span>
+          </div>
+          <br/>
+          <div class="notices">
+            <ul class="col-md-10">
+              <li class="col-md-4">
+                <span>*&nbsp;Food/lunch not included in</span>
+                <p>the ticket price.</p>
+              </li>
+              <li class="col-md-4">
+                <span>*&nbsp;Graphicon Davao reserves the right to</span>
+                <p>cancel or replace speakers due to unavoidable circumstances.</p>
+              </li>
+              <li class="col-md-4">
+                <span>*&nbsp;Seats are on a first come,</span>
+                <p>first served basis only.</p>
+              </li>
+            </ul>
+          </div>
+          <br/>
+          <h1 class="or-sepline">or</h1>
+          <div class="ticket-partners">
+            <h2>Purchases from our ticket partners:</h2>
+            <ul class="col-md-6">
+              <li>
+                <div class="brand-img-ticket">
+                  <img src="assets/img/sponsors/yellowhauz.png" class="img-responsive ticket-shop-partner-1" draggable="false">
+                </div>
+                <div class="brand-ticket">
+                  <h1>Coffee at Yellow Hauz</h1>
+                  <p><i class="fa fa-map-marker">&nbsp;</i>V. Mapa, Mabini Street, Davao City</p>
+                  <p><i class="fa fa-clock-o">&nbsp;</i>Mon - Sun: 8:00 am - 12:00 am</p>
+                  <p><i class="fa fa-phone">&nbsp;</i>(082) 282 2178</p>
+                </div>
+              </li>
+              <li>
+                <div class="brand-img-ticket">
+                  <img src="assets/img/sponsors/balikBukid.png" class="img-responsive ticket-shop-partner-2" draggable="false">
+                </div>
+                <div class="brand-ticket">
+                  <h1>Balik Bukid Farm & Kitchen</h1>
+                  <p><i class="fa fa-map-marker">&nbsp;</i>Sandawa Park Quimpo Blvd. Ecoland, 8000 Davao City</p>
+                  <p><i class="fa fa-clock-o">&nbsp;</i>Mon - Sat: 11:00 am - 10:00 pm, Sun: 6:00 pm - 10:00 pm</p>
+                  <p><i class="fa fa-phone">&nbsp;</i>296-4543</p>
+                </div>
+              </li>
+              <li>
+                <div class="brand-img-ticket">
+                  <img src="assets/img/sponsors/mangatoshokan.png" class="img-responsive ticket-shop-partner-3" draggable="false">
+                </div>
+                <div class="brand-ticket">
+                  <h1>Coffee at Yellow Hauz</h1>
+                  <p><i class="fa fa-map-marker">&nbsp;</i>Doors 4 and 5, Belfran Bldg., Palma Gil St. cor. CM Recto St., 8000 Davao City</p>
+                  <p><i class="fa fa-clock-o">&nbsp;</i>Mon - Sun: 8:30 am - 10:00 pm</p>
+                  <p><i class="fa fa-phone">&nbsp;</i>09328708779</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="img-holder" id="img-holder">
+          <div class="container">
+            <ul id="scene11" class="scene11">
+              <li class="layer pic1" data-depth="0.10"><img src="assets/img/big-cloud-top-isometric.png" class="img-responsive"></li>
+              <li class="layer pic2" data-depth="0.15"><img src="assets/img/big-cloud-top-2-isometric.png" class="img-responsive"></li>
+              <li class="layer pic3" data-depth="0.20"><img src="assets/img/big-cloud-top-3-isometric.png" class="img-responsive"></li>
+              <li class="layer pic4" data-depth="0.25"><img src="assets/img/helicopter-isometric.png" class="img-responsive"></li>
+              <li class="layer pic5" data-depth="0.30"><img src="assets/img/big-cloud-middle-isometric.png" class="img-responsive"></li>
+              <li class="layer pic6" data-depth="0.35"><img src="assets/img/big-cloud-middle-2-isometric.png" class="img-responsive"></li>
+              <li class="layer pic7" data-depth="0.40"><img src="assets/img/big-cloud-middle-3-isometric.png" class="img-responsive"></li>
+              <li class="layer pic8" data-depth="0.45"><img src="assets/img/big-cloud-middle-4-isometric.png" class="img-responsive"></li>
+              <li class="layer pic9" data-depth="0.50"><img src="assets/img/big-cloud-bottom-isometric.png" class="img-responsive"></li>
+              <li class="layer pic10" data-depth="0.55"><img src="assets/img/big-cloud-bottom-2-isometric.png" class="img-responsive"></li>
+              <li class="layer pic11" data-depth="0.60"><img src="assets/img/big-cloud-bottom-3-isometric.png" class="img-responsive"></li>
+              <li class="layer pic12" data-depth="0.65"><img src="assets/img/big-cloud-middle-isometric.png" class="img-responsive"></li>
+              <li class="layer pic13" data-depth="0.70"><img src="assets/img/big-cloud-middle-2-isometric.png" class="img-responsive"></li>
+              <li class="layer pic14" data-depth="0.75"><img src="assets/img/big-cloud-middle-3-isometric.png" class="img-responsive"></li>
+              <li class="layer pic15" data-depth="0.80"><img src="assets/img/big-cloud-middle-4-isometric.png" class="img-responsive"></li>
+              <li class="layer pic16" data-depth="0.85"><img src="assets/img/big-cloud-bottom-isometric.png" class="img-responsive"></li>
+              <li class="layer pic17" data-depth="0.90"><img src="assets/img/big-cloud-bottom-2-isometric.png" class="img-responsive"></li>
+              <li class="layer pic18" data-depth="0.95"><img src="assets/img/big-cloud-bottom-3-isometric.png" class="img-responsive"></li>
+              <li class="layer pic19" data-depth="1.00"><img src="assets/img/big-cloud-top-isometric.png" class="img-responsive"></li>
+            </ul>
+          </div>
+        </div>
 			</div>
 
 			<div class="section" id="sponsors">
@@ -998,18 +992,18 @@
 							</ul>
 						</div>
 					</div>
-					<!-- <div class="bronze-sponsors">
+					<div class="bronze-sponsors">
 						<p>Bronze Sponsors</p>
 						<div class="sponsor-wrapper" id="bronze-sponsors">
 							<ul class="bronze-sponsor">
-								<li>
-									<a href="#" class="sponsor-link">
-										<img src="assets/img/speakers/pics/artworks/lesterCarlo-1.png"/>
-									</a>
-								</li>
+                <li>
+                  <a href="#" class="sponsor-link">
+                    <img src="assets/img/sponsors/midtown.png"/>
+                  </a>
+                </li>
 							</ul>
 						</div>
-					</div> -->
+					</div>
 					<div class="minor-sponsors">
 						<p>Minor Sponsors</p>
 						<div class="sponsor-wrapper" id="minor-sponsors">
@@ -1017,11 +1011,6 @@
 								<li>
 									<a href="#" class="sponsor-link">
 										<img src="assets/img/sponsors/balikBukid.png"/>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="sponsor-link">
-										<img src="assets/img/sponsors/midtown.png"/>
 									</a>
 								</li>
 								<li>
@@ -1092,6 +1081,11 @@
                 <li>
                   <a href="#" class="sponsor-link">
                     <img src="assets/img/sponsors/velvet.png"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="sponsor-link">
+                    <img src="assets/img/sponsors/ingenuity.png"/>
                   </a>
                 </li>
 							</ul>
