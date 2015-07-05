@@ -75,15 +75,14 @@ body .event-group {
   display: block;
 }
 body .event-group .present {
-    width: 75%;
-  
-    margin: 0 auto;
+  width: 75%;
+  margin: 0 auto;
 }
 body .event-group .partner {
-    width: 35%;    margin: 0 auto;
-
-    position: relative;
-    top: -30px;
+  width: 35%;    
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
 }
 body img.bc-logo {
   display: inline-block;
@@ -1876,7 +1875,7 @@ footer .container .ticket-info h1 a {
 }
 #jojie .text-container, #marvin .text-container, #patrick .text-container, #venue .text-container {
   float: left;
-  left: -130%;
+  left: 0;
   top: 0;
 }
 #about .text-container, #venue .text-container {
@@ -1888,7 +1887,7 @@ footer .container .ticket-info h1 a {
 }
 #harvey .text-container, #april .text-container, #lesterCarlo .text-container {
   float: right;
-  right: -130%;
+  right: 0;
   top: 0;
 }
 #about .text-container, #tickets .text-container, #sponsors .text-container {
@@ -1912,9 +1911,15 @@ footer .container .ticket-info h1 a {
   margin: 5em auto 2em;
   left: 0;
 }
+#about .text-container header ul.speaker-list li {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
 #about .text-container header ul li {
   font-size: 15px;
   font-weight: bold !important;
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);            
+  -webkit-box-shadow: 0 0 0 4px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);
 }
 #about .text-container header ul li span.year-img {    
   width: 75px;       
@@ -2094,8 +2099,8 @@ footer .container .ticket-info h1 a {
   font-weight: bold;
   display: block;
   margin: 7px 0 2px;
-  padding: 0;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  padding: 0;
 }
 #jojie > .text-container > header > h1 {
   text-indent: 5px;
@@ -2174,7 +2179,7 @@ footer .container .ticket-info h1 a {
   display: inline-block !important;
   width: 180px;
   height: 180px;
-  margin: 2px;
+  margin: 2px 6px;
   padding: 0;
   background-color: #fff;
   overflow: hidden;
@@ -2188,7 +2193,7 @@ footer .container .ticket-info h1 a {
   -khtml-user-select: none;   
   -moz-user-select: none;   
   -ms-user-select: none;  
-  user-select: none;
+  user-select: none;            
 }
 #about .portfolio ul li {
   border-radius: 50%;
@@ -2271,6 +2276,7 @@ footer .container .ticket-info h1 a {
   -moz-user-select: none;   
   -ms-user-select: none;  
   user-select: none;
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);            -webkit-box-shadow: 0 0 0 4px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);
 }
 .gold-sponsors, .partners, .silver-sponsors, .bronze-sponsors, .media-partners, .special-thanks {
   position: relative;
@@ -2385,6 +2391,12 @@ footer .container .ticket-info h1 a {
 }
 
 /* Tickets */
+.ticket-pass {
+  float: left;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
 .ticket-pass h1 {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
@@ -2397,6 +2409,8 @@ footer .container .ticket-info h1 a {
   border-bottom: 2px solid #fff;
   width: 360px;
   margin: 0 auto 25px;
+  right: -500%;
+  position: relative;
 }
 .ticket-pass span.round-bg {
   width: 300px;
@@ -2415,8 +2429,12 @@ footer .container .ticket-info h1 a {
   -webkit-transform: scale(1);    
   -moz-transform: scale(1);    
   -o-transform: scale(1);
-  transition: 200ms all ease-in;    -webkit-transition: 200ms all ease-in;    -moz-transition: 200ms all ease-in;    -o-transition: 200ms all ease-in;
+  transition: 200ms all ease-in;    
+  -webkit-transition: 200ms all ease-in;    
+  -moz-transition: 200ms all ease-in;    
+  -o-transition: 200ms all ease-in;
   cursor: pointer;
+  left: -500%;
 }
 .ticket-pass span.round-bg:hover {
   transform: scale(0.95);    
@@ -2441,6 +2459,8 @@ footer .container .ticket-info h1 a {
   margin: 0 auto;
   float: none;
   padding: 0;
+  position: relative;
+  left: -500%;
 }
 .ticket-pass ul li h3 {
   font-size: 18px;
@@ -2495,11 +2515,20 @@ footer .container .ticket-info h1 a {
   border: none;
   width: 100%;
   margin: 0;
+  right: 0;
 }
 .ticket-pass span.round-bg p {
   font-size: 15px;
   font-style: normal;
   color: #fff;
+}
+.ticket-pass .bank-depo {
+  width: 50%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  left: -500%;
 }
 .ticket-pass .bank-depo a.btn-bank-depo {
   display: block;
@@ -2549,9 +2578,10 @@ footer .container .ticket-info h1 a {
   height: auto;
   float: left;
   position: relative;
-  top: 150px;
+  top: 125px;
   margin: 0 auto 50px;
   padding: 0;
+  right: -500%;
 }
 .notices ul {
   list-style: none;
@@ -2583,6 +2613,8 @@ footer .container .ticket-info h1 a {
   font-size: 35px;
   text-transform: uppercase;
   font-weight: bold;
+  position: relative;
+  left: -500%;
 }
 .or-sepline:before, .or-sepline:after {
   width: 75px;
@@ -2607,17 +2639,27 @@ footer .container .ticket-info h1 a {
   width: 100%;
 }
 .ticket-partners h2 {
-    color: #fff;
-  
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    -ms-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    -o-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    font-weight: 600;    font-size: 25px;    line-height: 45px;    border-bottom: 2px solid #fff;    
-    width: 412px;    margin: 0 auto 25px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    
+  -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    
+  -ms-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    
+  -o-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);    
+  font-weight: 600;    
+  font-size: 25px;    
+  line-height: 45px;    
+  border-bottom: 2px solid #fff;    
+  width: 412px;    
+  margin: 0 auto 25px;
+  position: relative;
+  right: -500%;
 }
 .ticket-partners ul {
   margin: 0 auto;
   display: block;
   float: none;
-  height: 10px;
   text-align: left;
+  position: relative;
+  left: -500%;
 }
 .ticket-partners ul li {
   font-size: 15px;            
@@ -2770,6 +2812,928 @@ footer .container .ticket-info h1 a {
 .slimScrollBar {
   border-radius: 0 !important;
   background: #fff !important;
+}
+
+/* ----------- 320 x 480 ----------- */
+@media screen and (max-device-width: 480px) and (min-device-width: 320px) {
+  body .event-group, .ip-header #container-alt {
+    width: 100% !important;
+    position: absolute !important;
+    height: 100%;
+    top: 6%;
+  }
+  body img.bc-logo.wacom {
+    width: 100px;
+    top: -5px;
+  }
+  body img.bc-logo.hcit {
+    width: 175px;  
+    top: 0;
+  }
+  body img.bc-logo.uic, body img.bc-logo.dti {
+    position: relative;
+    margin: 0 10px;
+    left: 60px;
+  }
+  body .loading h1 {
+    margin: 20px auto 10px;
+    
+  
+    font-size: 12px;
+  }
+  body img.bc-logo.uic {
+    width: 60px;
+  }
+  body img.bc-logo.dti {
+    width: 60px;
+  }
+  body .event-group .partner, body .event-group .present {
+    width: 90%;
+    top: 0;
+  }
+  .ip-loader {
+    width: 60px;
+    bottom: 17%;
+  }
+  header {
+    float: none;
+    width: 100%;
+    left: 0;
+  }
+  header .container {
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    right: 0;
+  } 
+  footer .social-media {
+    margin: 1.5em auto 0;
+    position: relative;
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  footer .container {
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  footer .container .ticket-info > h1.deposit-info, 
+  footer .container .ticket-info > h1.ticket-link {
+    text-align: center;
+  }
+  footer .container .ticket-info {
+    text-align: center;
+    float: none;
+    margin: 0;
+  }
+  header .container .title-text .light-bigger {
+    font-size: 12px;
+  }
+  header .container .title-text .light-big {
+    font-size: 11px;
+  }
+  header .container .title-text .bold-regular {
+    line-height: 15px;
+    margin-top: 6px;
+    font-size: 15px;
+  }
+  header .container .title-text {
+    width: 100%;
+    line-height: 25px;
+  }
+  header .container > hr {
+    width: 100%;
+    margin: 10px auto 15px;
+  }
+  #scene .layer.main {
+    top: 45%;
+    right: 0;
+    width: 120% !important;
+    left: -13%;
+    margin: 0 auto;
+    float: none;
+  }
+  #scene .layer.main img {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+  }
+  #scene .layer.pic1, #scene .layer.pic2, #scene .layer.pic3, #scene .layer.pic4, #scene .layer.pic5, #scene .layer.pic6, #scene .layer.pic7, #scene .layer.pic8, #scene .layer.pic9, #scene .layer.pic10, #scene .layer.pic11, #scene .layer.pic12, #scene .layer.pic13, #scene .layer.pic14, #scene .layer.pic15, #scene .layer.pic16, #scene .layer.pic17, #scene .layer.pic18, #scene .layer.pic19 {
+    opacity: 1;
+  }
+  #scene .layer.pic1 {
+    left: 70% !important;
+    z-index: 2;
+    top: 65%;
+  }
+  #scene .layer.pic2 {
+    left: 5% !important;
+    z-index: 3;
+    top: 8%;
+  }
+  #scene .layer.pic3 {
+    left: 3% !important;
+    z-index: 4;
+    top: 42%;
+  }
+  #scene .layer.pic4 {
+    top: 47% !important;
+    left: 30% !important;
+    z-index: 5;
+  }
+  #scene .layer.pic5 {
+    left: 7% !important;
+    top: 30%;
+  }
+  #scene .layer.pic6 {
+    left: 15% !important;
+    top: 20% !important;
+  }
+  #scene .layer.pic7 {
+    left: 78% !important;
+    float: right;
+    z-index: 8;
+    top: 28% !important;
+  }
+  #scene .layer.pic8 {
+    left: 85% !important;
+    float: right;
+    top: 18%;
+  }
+  #scene .layer.pic9 {
+    left: 75% !important;
+    top: 5%;
+  }
+  #scene .layer.pic10 {
+    left: 93% !important;
+    z-index: 6;
+    top: 40%;
+  }
+  #scene .layer.pic11 {
+    left: 0 !important;
+    top: 92%;
+  }
+  #scene .layer.pic12 {
+    left: 85% !important;
+    z-index: 8;
+    top: 90%;
+  }
+  #scene .layer.pic13 {
+    left: 95% !important;
+    top: 5%;
+  }
+  #scene .layer.pic14 {
+    left: 12% !important;
+    z-index: 2;
+    top: 55%;
+  }
+  #scene .layer.pic15 {
+    left: 68% !important;
+    top: 46%;
+  }
+  #scene .layer.pic16 {
+    left: 58% !important;
+    top: 80%;
+  }
+  #scene .layer.pic17 {
+    left: 50% !important;
+    top: 24%;
+  }
+  #scene .layer.pic18 {
+    left: 12% !important;
+    top: 83% !important;
+  }
+  #scene .layer.pic19 {
+    left: 90% !important;
+    z-index: 7;
+    top: 75% !important;
+  }
+  #scene .layer img {
+    width: 40% !important;
+    height: inherit;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  .text-container {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 3em 2em;
+  } 
+  #jojie header h1, #harvey header h1, #marvin header h1, 
+  #april header h1, #patrick header h1, 
+  #venue header h1 {
+    font-size: 18px;
+    padding: 15px 0 0;
+    line-height: 20px;
+  }
+  #venue header h4 {
+    font-size: 12px;
+    
+  
+    line-height: 18px;
+  }
+  #lesterCarlo header h1 {
+    line-height: 23px;
+    font-size: 20px;
+  }
+  #about .text-container, #venue .text-container {
+    top: 0;
+  
+    padding: 1em 2em;
+  }
+  #fp-nav {
+    display: none; 
+  }
+  .portfolio {
+    position: relative;
+    width: 100%;
+    right: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    float: left !important;
+  }
+  .portfolio ul li {
+    width: 45%;
+    margin: 5px;
+  
+    height: 135px;
+  }
+  #img-holder {
+    height: auto !important;
+    float: left;
+    position: relative;
+  }
+  #jojie, #harvey, #marvin, #april, #patrick, #lesterCarlo, #about, #venue, #sponsors {
+    height: auto !important;
+  }
+  #scene2 .layer.main, #scene3 .layer.main, 
+  #scene4 .layer.main, #scene5 .layer.main, #scene6 .layer.main, 
+  #scene7 .layer.main, #scene8 .layer.main, #scene9 .layer.main, 
+  #scene10 .layer.main, #scene11 .layer.main {
+    display: none !important;
+  }
+  #scene2 .layer.pic1, #scene2 .layer.pic2, #scene2 .layer.pic3, #scene2 .layer.pic4, #scene2 .layer.pic5, #scene2 .layer.pic6, #scene2 .layer.pic7, #scene2 .layer.pic8, #scene2 .layer.pic9, #scene2 .layer.pic10, #scene2 .layer.pic11, #scene2 .layer.pic12, #scene2 .layer.pic13, #scene2 .layer.pic14, #scene2 .layer.pic15, #scene2 .layer.pic16, #scene2 .layer.pic17, #scene2 .layer.pic18, #scene2 .layer.pic19, #scene3 .layer.pic1, #scene3 .layer.pic2, #scene3 .layer.pic3, #scene3 .layer.pic4, #scene3 .layer.pic5, #scene3 .layer.pic6, #scene3 .layer.pic7, #scene3 .layer.pic8, #scene3 .layer.pic9, #scene3 .layer.pic10, #scene3 .layer.pic11, #scene3 .layer.pic12, #scene3 .layer.pic13, #scene3 .layer.pic14, #scene3 .layer.pic15, #scene3 .layer.pic16, #scene3 .layer.pic17, #scene3 .layer.pic18, #scene3 .layer.pic19, #scene4 .layer.pic1, #scene4 .layer.pic2, #scene4 .layer.pic3, #scene4 .layer.pic4, #scene4 .layer.pic5, #scene4 .layer.pic6, #scene4 .layer.pic7, #scene4 .layer.pic8, #scene4 .layer.pic9, #scene4 .layer.pic10, #scene4 .layer.pic11, #scene4 .layer.pic12, #scene4 .layer.pic13, #scene4 .layer.pic14, #scene4 .layer.pic15, #scene4 .layer.pic16, #scene4 .layer.pic17, #scene4 .layer.pic18, #scene4 .layer.pic19, #scene5 .layer.pic1, #scene5 .layer.pic2, #scene5 .layer.pic3, #scene5 .layer.pic4, #scene5 .layer.pic5, #scene5 .layer.pic6, #scene5 .layer.pic7, #scene5 .layer.pic8, #scene5 .layer.pic9, #scene5 .layer.pic10, #scene5 .layer.pic11, #scene5 .layer.pic12, #scene5 .layer.pic13, #scene5 .layer.pic14, #scene5 .layer.pic15, #scene5 .layer.pic16, #scene5 .layer.pic17, #scene5 .layer.pic18, #scene5 .layer.pic19, #scene6 .layer.pic1, #scene6 .layer.pic2, #scene6 .layer.pic3, #scene6 .layer.pic4, #scene6 .layer.pic5, #scene6 .layer.pic6, #scene6 .layer.pic7, #scene6 .layer.pic8, #scene6 .layer.pic9, #scene6 .layer.pic10, #scene6 .layer.pic11, #scene6 .layer.pic12, #scene6 .layer.pic13, #scene6 .layer.pic14, #scene6 .layer.pic15, #scene6 .layer.pic16, #scene6 .layer.pic17, #scene6 .layer.pic18, #scene6 .layer.pic19, #scene7 .layer.pic1, #scene7 .layer.pic2, #scene7 .layer.pic3, #scene7 .layer.pic4, #scene7 .layer.pic5, #scene7 .layer.pic6, #scene7 .layer.pic7, #scene7 .layer.pic8, #scene7 .layer.pic9, #scene7 .layer.pic10, #scene7 .layer.pic11, #scene7 .layer.pic12, #scene7 .layer.pic13, #scene7 .layer.pic14, #scene7 .layer.pic15, #scene7 .layer.pic16, #scene7 .layer.pic17, #scene7 .layer.pic18, #scene7 .layer.pic19, #scene8 .layer.pic1, #scene8 .layer.pic2, #scene8 .layer.pic3, #scene8 .layer.pic4, #scene8 .layer.pic5, #scene8 .layer.pic6, #scene8 .layer.pic7, #scene8 .layer.pic8, #scene8 .layer.pic9, #scene8 .layer.pic10, #scene8 .layer.pic11, #scene8 .layer.pic12, #scene8 .layer.pic13, #scene8 .layer.pic14, #scene8 .layer.pic15, #scene8 .layer.pic16, #scene8 .layer.pic17, #scene8 .layer.pic18, #scene8 .layer.pic19, #scene9 .layer.pic1, #scene9 .layer.pic2, #scene9 .layer.pic3, #scene9 .layer.pic4, #scene9 .layer.pic5, #scene9 .layer.pic6, #scene9 .layer.pic7, #scene9 .layer.pic8, #scene9 .layer.pic9, #scene9 .layer.pic10, #scene9 .layer.pic11, #scene9 .layer.pic12, #scene9 .layer.pic13, #scene9 .layer.pic14, #scene9 .layer.pic15, #scene9 .layer.pic16, #scene9 .layer.pic17, #scene9 .layer.pic18, #scene9 .layer.pic19, #scene10 .layer.pic1, #scene10 .layer.pic2, #scene10 .layer.pic3, #scene10 .layer.pic4, #scene10 .layer.pic5, #scene10 .layer.pic6, #scene10 .layer.pic7, #scene10 .layer.pic8, #scene10 .layer.pic9, #scene10 .layer.pic10, #scene10 .layer.pic11, #scene10 .layer.pic12, #scene10 .layer.pic13, #scene10 .layer.pic14, #scene10 .layer.pic15, #scene10 .layer.pic16, #scene10 .layer.pic17, #scene10 .layer.pic18, #scene10 .layer.pic19, #scene11 .layer.pic1, #scene11 .layer.pic2, #scene11 .layer.pic3, #scene11 .layer.pic4, #scene11 .layer.pic5, #scene11 .layer.pic6, #scene11 .layer.pic7, #scene11 .layer.pic8, #scene11 .layer.pic9, #scene11 .layer.pic10, #scene11 .layer.pic11, #scene11 .layer.pic12, #scene11 .layer.pic13, #scene11 .layer.pic14, #scene11 .layer.pic15, #scene11 .layer.pic16, #scene11 .layer.pic17, #scene11 .layer.pic18, #scene11 .layer.pic19 {
+    display: none !important;
+  }
+  #venue h1.venue-title, #about h1.about-title {
+    line-height: 0;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+  
+    font-size: 25px;
+  }
+  #about .text-container, #tickets .text-container, #sponsors .text-container {
+    width: 100%;
+    padding: 3em 1em 0;
+  }
+  #about .text-container header ul li {
+    width: 150px;
+    height: 150px;
+  }
+  #about .text-container header ul li span.year-img {
+    font-size: 20px;
+    line-height: 42px;
+    left: 45px;
+    top: 60px;
+  }
+  #about .text-container header ul li span.year-img.pic-2012 {
+    top: 230px;
+  }
+  #about .text-container header ul li span.year-img.pic-2013 {
+    top: 400px;
+  }
+  #about .text-container p {
+    width: 100%;
+    line-height: 30px;
+    left: 0;
+    font-size: 16px;
+  }
+  #about .portfolio {
+    margin: 1em auto; 
+  }
+  #about .text-container header ul.speaker-list {
+    padding: 0;
+    margin: 0;
+  }
+  #about .text-container header ul.speaker-list li {
+    width: 100%;
+    height: auto;
+  }
+  #venue header {
+    text-align: center;
+  }
+  #venue .fa-iconset {
+    margin: 2em auto 0;
+    display: block;
+    position: relative;
+    width: auto;
+    float: none;
+    left: 0;
+    right: 0;
+  }
+  #venue .fa-iconset a {
+    float: none;
+    display: inline-block;
+  }
+  .ticket-pass h1 {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 30px;
+    right: 0;
+  }
+  .ticket-pass ul {
+    left: 0;
+  }
+  .ticket-pass ul li h3 {
+    line-height: 25px;
+  }
+  .ticket-pass .bank-depo {
+    width: 100%;
+  
+    left: 0;
+  }
+  .ticket-pass .bank-depo a.btn-bank-depo {
+    position: relative;
+    margin: 45px auto;
+    float: none;
+  }
+  .notices {
+    top: -25px;
+    margin: 0 auto;
+    right: 0;
+  }
+  .or-sepline {
+    margin: 30px auto 55px;
+    left: 0;
+  }
+  .ticket-partners h2 {
+    width: 85%;
+    line-height: 30px;
+    padding-bottom: 10px;
+    right: 0;
+    margin-bottom: 0;
+  }
+  .ticket-partners ul {
+    left: 0;
+    padding: 0;
+    width: 90%;
+  }
+  .ticket-partners ul li .brand-img-ticket {
+    float: none;
+    margin: 20px auto 30px;
+  }
+  .ticket-partners ul li .brand-ticket {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .ticket-partners ul li h1 {
+    line-height: 25px;
+    
+  
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .ticket-partners ul li p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 10px;
+  }
+  #about .text-container header {
+    margin: 0 auto 2em;
+    width: 90%;
+  }
+  #tickets .text-container header, #sponsors .text-container header {
+    padding: 1em 0 0;
+    width: 90%;
+    margin: 2em auto;
+  }
+  .gold-sponsors, .silver-sponsors, .minor-sponsors, .special-thanks {
+    left: 0;
+  
+    width: 80%;
+    margin: 0 auto;
+  }
+  .partners, .bronze-sponsors, .media-partners {
+    right: 0;
+  }
+  .sponsor-wrapper ul li {
+    width: 85% !important;
+    display: block !important;
+    height: auto;
+    margin: 20px auto;
+  }
+  #tickets .text-container header h1, #sponsors .text-container header h1 {
+    left: 0;
+  }
+  #about .text-container header h4, #tickets .text-container header h4, 
+  #sponsors .text-container header h4 {
+    right: 0;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .ticket-pass span.round-bg {
+    left: 0;
+    width: 250px;
+    height: 250px;
+  }
+  .ticket-pass span.round-bg:after {
+    width: 235px;
+    
+  
+    height: 235px;
+  }
+  .ticket-pass span.round-bg img {
+    width: 115px;
+    top: 38px;
+  }
+  .ticket-pass span.round-bg h4 {
+    margin: 45px 0 0;
+    font-size: 20px;
+  }
+  .ticket-pass span.round-bg h1 {
+    font-size: 35px;
+    line-height: 30px;
+    padding-bottom: 5px;
+  }
+  .sponsor-wrapper#partners ul li, .sponsor-wrapper#silver-sponsors ul li, 
+  .sponsor-wrapper#bronze-sponsors ul li, .sponsor-wrapper#minor-sponsors ul li,
+  .sponsor-wrapper#media-partners ul li, .sponsor-wrapper#special-thanks ul li{
+    width: 230px;
+    height: auto;
+  }
+  .credits {
+    margin: 2em 0 0;
+  }
+  .credits img:first-child {
+    margin: 0 auto 40px;
+  }
+  .credits h4 {
+    line-height: 25px;
+  }
+}
+
+/* ----------- 360 x 640 ----------- */
+@media screen and (max-device-width: 640px) and (min-device-width: 360px) {
+  body .event-group, .ip-header #container-alt {
+    width: 100% !important;
+    position: absolute !important;
+    height: 100%;
+    top: 20px;
+  }
+  body img.bc-logo.wacom {
+    width: 150px;
+    top: -5px;
+  }
+  body img.bc-logo.hcit {
+    width: 100%;  
+    top: 0;
+  }
+  body img.bc-logo.uic, body img.bc-logo.dti {
+    position: relative;
+    margin: 0 30px;
+  }
+  body img.bc-logo.uic {
+    width: 100px;
+  }
+  body img.bc-logo.dti {
+    width: 100px;
+  }
+  body .event-group .partner, body .event-group .present {
+    width: 90%;
+    top: 0;
+  }
+  .ip-loader {
+    width: 60px;
+    bottom: 15%;
+  }
+  header {
+    float: none;
+    width: 100%;
+    left: 0;
+  }
+  header .container {
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    right: 0;
+  } 
+  footer .social-media {
+    margin: 2em auto;
+    position: relative;
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  footer .container {
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  footer .container .ticket-info > h1.deposit-info, 
+  footer .container .ticket-info > h1.ticket-link {
+    text-align: center;
+  }
+  footer .container .ticket-info {
+    text-align: center;
+    float: none;
+  }
+  header .container .title-text .bold-regular {
+    line-height: 25px;
+    margin-top: 6px;
+  }
+  header .container .title-text {
+    width: 100%;
+  }
+  header .container > hr {
+    width: 80%;
+    margin: 5% 10%;
+  
+    left: 0;
+    right: 0;
+}
+  #scene .layer.main {
+    top: 45%;
+    right: 0;
+    width: 120% !important;
+    left: -13%;
+    margin: 0 auto;
+    float: none;
+  }
+  #scene .layer.main img {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+  }
+  #scene .layer.pic1, #scene .layer.pic2, #scene .layer.pic3, #scene .layer.pic4, #scene .layer.pic5, #scene .layer.pic6, #scene .layer.pic7, #scene .layer.pic8, #scene .layer.pic9, #scene .layer.pic10, #scene .layer.pic11, #scene .layer.pic12, #scene .layer.pic13, #scene .layer.pic14, #scene .layer.pic15, #scene .layer.pic16, #scene .layer.pic17, #scene .layer.pic18, #scene .layer.pic19 {
+    opacity: 1;
+  }
+  #scene .layer.pic1 {
+    left: 70% !important;
+    z-index: 2;
+    top: 65%;
+  }
+  #scene .layer.pic2 {
+    left: 5% !important;
+    z-index: 3;
+    top: 8%;
+  }
+  #scene .layer.pic3 {
+    left: 3% !important;
+    z-index: 4;
+    top: 42%;
+  }
+  #scene .layer.pic4 {
+    top: 47% !important;
+    left: 30% !important;
+    z-index: 5;
+  }
+  #scene .layer.pic5 {
+    left: 7% !important;
+    top: 30%;
+  }
+  #scene .layer.pic6 {
+    left: 15% !important;
+    top: 20% !important;
+  }
+  #scene .layer.pic7 {
+    left: 78% !important;
+    float: right;
+    z-index: 8;
+    top: 28% !important;
+  }
+  #scene .layer.pic8 {
+    left: 85% !important;
+    float: right;
+    top: 18%;
+  }
+  #scene .layer.pic9 {
+    left: 75% !important;
+    top: 5%;
+  }
+  #scene .layer.pic10 {
+    left: 93% !important;
+    z-index: 6;
+    top: 40%;
+  }
+  #scene .layer.pic11 {
+    left: 0 !important;
+    top: 92%;
+  }
+  #scene .layer.pic12 {
+    left: 85% !important;
+    z-index: 8;
+    top: 90%;
+  }
+  #scene .layer.pic13 {
+    left: 95% !important;
+    top: 5%;
+  }
+  #scene .layer.pic14 {
+    left: 12% !important;
+    z-index: 2;
+    top: 55%;
+  }
+  #scene .layer.pic15 {
+    left: 68% !important;
+    top: 46%;
+  }
+  #scene .layer.pic16 {
+    left: 58% !important;
+    top: 80%;
+  }
+  #scene .layer.pic17 {
+    left: 50% !important;
+    top: 24%;
+  }
+  #scene .layer.pic18 {
+    left: 12% !important;
+    top: 83% !important;
+  }
+  #scene .layer.pic19 {
+    left: 90% !important;
+    z-index: 7;
+    top: 75% !important;
+  }
+  #scene .layer img {
+    width: 40% !important;
+    height: inherit;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  .text-container {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 3em 2em;
+  } 
+  #about .text-container, #venue .text-container {
+    top: 0;
+  }
+  #fp-nav {
+    display: none; 
+  }
+  .portfolio {
+    position: relative;
+    width: 100%;
+    right: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    float: left !important;
+  }
+  .portfolio ul li {
+    width: 46%;
+    margin: 5px;
+  }
+  #img-holder {
+    height: auto !important;
+    float: left;
+    position: relative;
+  }
+  #jojie, #harvey, #marvin, #april, #patrick, #lesterCarlo, #about, #venue, #sponsors {
+    height: auto !important;
+  }
+  #scene2 .layer.main, #scene3 .layer.main, 
+  #scene4 .layer.main, #scene5 .layer.main, #scene6 .layer.main, 
+  #scene7 .layer.main, #scene8 .layer.main, #scene9 .layer.main, 
+  #scene10 .layer.main, #scene11 .layer.main {
+    display: none !important;
+  }
+  #scene2 .layer.pic1, #scene2 .layer.pic2, #scene2 .layer.pic3, #scene2 .layer.pic4, #scene2 .layer.pic5, #scene2 .layer.pic6, #scene2 .layer.pic7, #scene2 .layer.pic8, #scene2 .layer.pic9, #scene2 .layer.pic10, #scene2 .layer.pic11, #scene2 .layer.pic12, #scene2 .layer.pic13, #scene2 .layer.pic14, #scene2 .layer.pic15, #scene2 .layer.pic16, #scene2 .layer.pic17, #scene2 .layer.pic18, #scene2 .layer.pic19, #scene3 .layer.pic1, #scene3 .layer.pic2, #scene3 .layer.pic3, #scene3 .layer.pic4, #scene3 .layer.pic5, #scene3 .layer.pic6, #scene3 .layer.pic7, #scene3 .layer.pic8, #scene3 .layer.pic9, #scene3 .layer.pic10, #scene3 .layer.pic11, #scene3 .layer.pic12, #scene3 .layer.pic13, #scene3 .layer.pic14, #scene3 .layer.pic15, #scene3 .layer.pic16, #scene3 .layer.pic17, #scene3 .layer.pic18, #scene3 .layer.pic19, #scene4 .layer.pic1, #scene4 .layer.pic2, #scene4 .layer.pic3, #scene4 .layer.pic4, #scene4 .layer.pic5, #scene4 .layer.pic6, #scene4 .layer.pic7, #scene4 .layer.pic8, #scene4 .layer.pic9, #scene4 .layer.pic10, #scene4 .layer.pic11, #scene4 .layer.pic12, #scene4 .layer.pic13, #scene4 .layer.pic14, #scene4 .layer.pic15, #scene4 .layer.pic16, #scene4 .layer.pic17, #scene4 .layer.pic18, #scene4 .layer.pic19, #scene5 .layer.pic1, #scene5 .layer.pic2, #scene5 .layer.pic3, #scene5 .layer.pic4, #scene5 .layer.pic5, #scene5 .layer.pic6, #scene5 .layer.pic7, #scene5 .layer.pic8, #scene5 .layer.pic9, #scene5 .layer.pic10, #scene5 .layer.pic11, #scene5 .layer.pic12, #scene5 .layer.pic13, #scene5 .layer.pic14, #scene5 .layer.pic15, #scene5 .layer.pic16, #scene5 .layer.pic17, #scene5 .layer.pic18, #scene5 .layer.pic19, #scene6 .layer.pic1, #scene6 .layer.pic2, #scene6 .layer.pic3, #scene6 .layer.pic4, #scene6 .layer.pic5, #scene6 .layer.pic6, #scene6 .layer.pic7, #scene6 .layer.pic8, #scene6 .layer.pic9, #scene6 .layer.pic10, #scene6 .layer.pic11, #scene6 .layer.pic12, #scene6 .layer.pic13, #scene6 .layer.pic14, #scene6 .layer.pic15, #scene6 .layer.pic16, #scene6 .layer.pic17, #scene6 .layer.pic18, #scene6 .layer.pic19, #scene7 .layer.pic1, #scene7 .layer.pic2, #scene7 .layer.pic3, #scene7 .layer.pic4, #scene7 .layer.pic5, #scene7 .layer.pic6, #scene7 .layer.pic7, #scene7 .layer.pic8, #scene7 .layer.pic9, #scene7 .layer.pic10, #scene7 .layer.pic11, #scene7 .layer.pic12, #scene7 .layer.pic13, #scene7 .layer.pic14, #scene7 .layer.pic15, #scene7 .layer.pic16, #scene7 .layer.pic17, #scene7 .layer.pic18, #scene7 .layer.pic19, #scene8 .layer.pic1, #scene8 .layer.pic2, #scene8 .layer.pic3, #scene8 .layer.pic4, #scene8 .layer.pic5, #scene8 .layer.pic6, #scene8 .layer.pic7, #scene8 .layer.pic8, #scene8 .layer.pic9, #scene8 .layer.pic10, #scene8 .layer.pic11, #scene8 .layer.pic12, #scene8 .layer.pic13, #scene8 .layer.pic14, #scene8 .layer.pic15, #scene8 .layer.pic16, #scene8 .layer.pic17, #scene8 .layer.pic18, #scene8 .layer.pic19, #scene9 .layer.pic1, #scene9 .layer.pic2, #scene9 .layer.pic3, #scene9 .layer.pic4, #scene9 .layer.pic5, #scene9 .layer.pic6, #scene9 .layer.pic7, #scene9 .layer.pic8, #scene9 .layer.pic9, #scene9 .layer.pic10, #scene9 .layer.pic11, #scene9 .layer.pic12, #scene9 .layer.pic13, #scene9 .layer.pic14, #scene9 .layer.pic15, #scene9 .layer.pic16, #scene9 .layer.pic17, #scene9 .layer.pic18, #scene9 .layer.pic19, #scene10 .layer.pic1, #scene10 .layer.pic2, #scene10 .layer.pic3, #scene10 .layer.pic4, #scene10 .layer.pic5, #scene10 .layer.pic6, #scene10 .layer.pic7, #scene10 .layer.pic8, #scene10 .layer.pic9, #scene10 .layer.pic10, #scene10 .layer.pic11, #scene10 .layer.pic12, #scene10 .layer.pic13, #scene10 .layer.pic14, #scene10 .layer.pic15, #scene10 .layer.pic16, #scene10 .layer.pic17, #scene10 .layer.pic18, #scene10 .layer.pic19, #scene11 .layer.pic1, #scene11 .layer.pic2, #scene11 .layer.pic3, #scene11 .layer.pic4, #scene11 .layer.pic5, #scene11 .layer.pic6, #scene11 .layer.pic7, #scene11 .layer.pic8, #scene11 .layer.pic9, #scene11 .layer.pic10, #scene11 .layer.pic11, #scene11 .layer.pic12, #scene11 .layer.pic13, #scene11 .layer.pic14, #scene11 .layer.pic15, #scene11 .layer.pic16, #scene11 .layer.pic17, #scene11 .layer.pic18, #scene11 .layer.pic19 {
+    display: none !important;
+  }
+  #venue h1.venue-title, #about h1.about-title {
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+  }
+  #about .text-container, #tickets .text-container, #sponsors .text-container {
+    width: 100%;
+    padding: 3em 1em 0;
+  }
+  #about .text-container header ul li {
+    width: 200px;
+    height: 200px;
+  }
+  #about .text-container header ul li span.year-img {
+    font-size: 20px;
+    line-height: 43px;
+    left: 40px;
+    top: 80px;
+  }
+  #about .text-container header ul li span.year-img.pic-2012 {
+    top: 295px;
+  }
+  #about .text-container header ul li span.year-img.pic-2013 {
+    top: 520px;
+  }
+  #about .text-container p {
+    width: 100%;
+    line-height: 30px;
+    left: 0;
+    font-size: 16px;
+  }
+  #about .portfolio {
+    margin: 1em auto; 
+  }
+  #about .text-container header ul.speaker-list {
+    padding: 0;
+    margin: 0;
+  }
+  #about .text-container header ul.speaker-list li {
+    width: 100%;
+    height: auto;
+  }
+  #venue header {
+    text-align: center;
+  }
+  #venue .fa-iconset {
+    margin: 2em auto 0;
+    display: block;
+    position: relative;
+    width: auto;
+    float: none;
+    left: 0;
+    right: 0;
+  }
+  #venue .fa-iconset a {
+    float: none;
+    display: inline-block;
+  }
+  .ticket-pass h1 {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 30px;
+    right: 0;
+  }
+  .ticket-pass ul {
+    left: 0;
+  }
+  .ticket-pass ul li h3 {
+    line-height: 25px;
+  }
+  .ticket-pass .bank-depo {
+    width: 100%;
+  
+    left: 0;
+  }
+  .ticket-pass .bank-depo a.btn-bank-depo {
+    position: relative;
+    margin: 45px auto;
+    float: none;
+  }
+  .notices {
+    top: -25px;
+    margin: 0 auto;
+    right: 0;
+  }
+  .or-sepline {
+    margin: 30px auto 55px;
+    left: 0;
+  }
+  .ticket-partners h2 {
+    width: 70%;
+    line-height: 30px;
+    padding-bottom: 10px;
+    right: 0;
+  }
+  .ticket-partners ul {
+    left: 0;
+    
+  }
+  .ticket-partners ul li .brand-img-ticket {
+    float: none;
+    margin: 20px auto 30px;
+  }
+  .ticket-partners ul li .brand-ticket {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  #about .text-container header {
+    margin: 0 auto 2em;
+    width: 90%;
+  }
+  #tickets .text-container header, #sponsors .text-container header {
+    padding: 2em 0 0;
+    width: 90%;
+    margin: 2em auto;
+  }
+  .gold-sponsors, .silver-sponsors, .minor-sponsors, .special-thanks {
+    left: 0;
+  }
+  .partners, .bronze-sponsors, .media-partners {
+    right: 0;
+  }
+  #tickets .text-container header h1, #sponsors .text-container header h1 {
+    left: 0;
+  }
+  #about .text-container header h4, #tickets .text-container header h4, 
+  #sponsors .text-container header h4 {
+    right: 0;
+  }
+  .ticket-pass span.round-bg {
+    left: 0;
+  }
+  .sponsor-wrapper#partners ul li, .sponsor-wrapper#silver-sponsors ul li, 
+  .sponsor-wrapper#bronze-sponsors ul li, .sponsor-wrapper#minor-sponsors ul li,
+  .sponsor-wrapper#media-partners ul li, .sponsor-wrapper#special-thanks ul li{
+    width: 230px;
+    height: auto;
+  }
+  .credits {
+    margin: 2em 0 0;
+  }
+  .credits img:first-child {
+    margin: 0 auto 40px;
+  }
+  .credits h4 {
+    line-height: 25px;
+  }
+}
+
+/* ----------- 375 x 667 ----------- */
+@media screen and (max-device-width: 667px) and (min-device-width: 375px) {
+  header .container {
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    right: 0;
+  } 
+  footer .social-media {
+    margin: 1.5em auto 0;
+    position: relative;
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  footer .container {
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  footer .container .ticket-info > h1.deposit-info, 
+  footer .container .ticket-info > h1.ticket-link {
+    text-align: center;
+  
+    font-size: 18px;
+    line-height: 20px;
+}
+  footer .container .ticket-info {
+    text-align: center;
+    float: none;
+    margin: 20px auto 0;
+  }
+  header .container .title-text .light-bigger {
+    font-size: 18px;
+  
+    line-height: 25px;
+}
+  header .container .title-text .light-big {
+    font-size: 18px;
+  }
+  header .container .title-text .bold-regular {
+    line-height: 32px;
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  header .container .title-text {
+    width: 100%;
+    line-height: 25px;
+  }
 }
 
 /* ----------- Non-Retina Screens ----------- */
