@@ -2837,13 +2837,12 @@ footer .container .ticket-info h1 a {
   }
   body .loading h1 {
     margin: 20px auto 10px;
-    
-  
     font-size: 12px;
   }
   body img.bc-logo.uic {
     width: 60px;
-  }
+  
+}
   body img.bc-logo.dti {
     width: 60px;
   }
@@ -3293,7 +3292,7 @@ footer .container .ticket-info h1 a {
     width: 100% !important;
     position: absolute !important;
     height: 100%;
-    top: 20px;
+    top: 30px;
   }
   body img.bc-logo.wacom {
     width: 150px;
@@ -3305,7 +3304,8 @@ footer .container .ticket-info h1 a {
   }
   body img.bc-logo.uic, body img.bc-logo.dti {
     position: relative;
-    margin: 0 30px;
+    margin: 0 15px;
+    left: 30px;
   }
   body img.bc-logo.uic {
     width: 100px;
@@ -3332,6 +3332,18 @@ footer .container .ticket-info h1 a {
     width: 100%;
     padding: 0 40px;
     text-align: center;
+  }
+  header .container .title-text .light-bigger {
+    font-size: 18px;
+  }
+  header .container .title-text .light-big {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  header .container .title-text .bold-regular {
+    line-height: 15px;
+    margin-top: 6px;
+    font-size: 15px;
   }
   footer {
     text-align: center;
@@ -3362,7 +3374,9 @@ footer .container .ticket-info h1 a {
   header .container .title-text .bold-regular {
     line-height: 25px;
     margin-top: 6px;
-  }
+  
+    font-size: 19px;
+}
   header .container .title-text {
     width: 100%;
   }
@@ -3678,6 +3692,15 @@ footer .container .ticket-info h1 a {
   }
 }
 
+/* ----------- 384 x 640 ----------- */
+@media screen and (max-device-width: 640px) and (min-device-width: 384px) {
+  body img.bc-logo.uic, body img.bc-logo.dti {
+    position: relative;
+    margin: 0 15px;
+    left: 37px;
+  }
+}
+
 /* ----------- 375 x 667 ----------- */
 @media screen and (max-device-width: 667px) and (min-device-width: 375px) {
   header .container {
@@ -3733,6 +3756,35 @@ footer .container .ticket-info h1 a {
   header .container .title-text {
     width: 100%;
     line-height: 25px;
+  }
+}
+
+/* ----------- 414 x 736 ----------- */
+@media screen and (max-device-width: 736px) and (min-device-width: 414px) {
+  body img.bc-logo.uic, body img.bc-logo.dti {
+    left: 45px;
+  }
+}
+
+/* ----------- 768 x 1024 ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+  #harvey .portfolio li, #april .portfolio li, #lesterCarlo .portfolio li {
+    float: right;
+  }
+  .portfolio {
+    width: 420px;
+    top: 13% !important;
+  }
+  .portfolio ul li {
+    width: 180px;
+    height: 180px;
+  }
+  #about .portfolio {
+    width: 600px;
+  }
+  .brand-ticket {
+    width: 60%;
+    
   }
 }
 
