@@ -1944,6 +1944,8 @@ footer .container .ticket-info h1 a {
   font-size: 30px;
   line-height: 40px;
   position: relative;
+}
+#sponsors .text-container header h1 {
   left: -500%;
 }
 #about .text-container header h4, 
@@ -1992,7 +1994,7 @@ footer .container .ticket-info h1 a {
   font-weight: bold;
 }
 #about h1.about-title {
-  left: -500%;
+  left: 0;
   position: relative;
 }
 #venue h1 .fa-iconset {
