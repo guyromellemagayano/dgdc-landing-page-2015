@@ -1916,10 +1916,22 @@ footer .container .ticket-info h1 a {
   -webkit-box-shadow: none;
 }
 #about .text-container header ul li {
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 35px;
   font-weight: bold !important;
   box-shadow: 0 0 0 4px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);            
   -webkit-box-shadow: 0 0 0 4px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);
+}
+#about .text-container header ul li a img.gc4-2011 {
+  margin-right: 10%;
+}
+#about .text-container header ul li a img.gc4-2012 {
+  margin-left: -25%;
+  margin-top: -15px;
+}
+#about .text-container header ul li a img.gc4-2013 {
+  margin-top: -50px;
+  margin-left: -28%;
 }
 #about .text-container header ul li span.year-img {    
   width: 75px;       
@@ -1964,11 +1976,11 @@ footer .container .ticket-info h1 a {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
 }
 #about .text-container p {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   
-  font-size: 14px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;
   left: -500%;
   position: relative;
 }
@@ -2843,12 +2855,11 @@ footer .container .ticket-info h1 a {
   }
   body img.bc-logo.uic {
     width: 60px;
-  
-}
+  }
   body img.bc-logo.dti {
     width: 60px;
   }
-  body .event-group .partner, body .event-group .present {
+  body .event-group .partner, body .event-group .present {
     width: 90%;
     top: 0;
   }
@@ -3315,7 +3326,7 @@ footer .container .ticket-info h1 a {
   body img.bc-logo.dti {
     width: 100px;
   }
-  body .event-group .partner, body .event-group .present {
+  body .event-group .partner,Ã‚Â body .event-group .present {
     width: 90%;
     top: 0;
   }
@@ -3769,7 +3780,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- 768 x 1024 ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+@media only all and (min-width: 768px) and (max-width: 1024px) { 
   #harvey .portfolio li, #april .portfolio li, #lesterCarlo .portfolio li {
     float: right;
   }
@@ -3786,12 +3797,92 @@ footer .container .ticket-info h1 a {
   }
   .brand-ticket {
     width: 60%;
+  }
+  #scene2 .layer.main {
+    top: 45%;
+    width: 130px;
+  }
+  #scene3 .layer.main {
+    top: 47%;
+    width: 130px;
+  }
+  #scene4 .layer.main {
+    width: 125px;
+    top: 45%;
+  }
+  #scene5 .layer.main {
+    top: 48%;
+    width: 130px;
+  }
+  #scene6 .layer.main {
+    top: 49%;
+    width: 165px;
+  }  
+  #scene7 .layer.main {
+    top: 47%;
+    width: 240px;
+  }  
+  #venue .text-container {
+    top: -2%;
     
   }
 }
 
 /* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1400px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) { 
+  #jojie .text-container, #marvin .text-container, 
+  #patrick .text-container, #harvey .text-container, 
+  #april .text-container, #lesterCarlo .text-container {
+    width: 40%;
+    top: -3%;
+  }
+  #jojie .text-container p, #harvey .text-container p, 
+  #marvin .text-container p, #april .text-container p, 
+  #patrick .text-container p, #lesterCarlo .text-container p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .ticket-pass ul {
+    width: 95%;
+  }
+  .notices {
+    top: 150px;
+  }
+  .ticket-partners ul {
+    width: 60%;
+  }
+  #venue .portfolio {
+    top: 30%; 
+  }
+  footer .container {
+    top: 83%;
+  }
+  footer .social-media {
+    right: 3%;
+    top: 2%;
+  }
+}
+@media screen and and (min-width: 1366px) {
+  #jojie .text-container, #marvin .text-container, 
+  #patrick .text-container, #harvey .text-container, 
+  #april .text-container, #lesterCarlo .text-container {
+    width: 45%;
+    top: 5%;
+  }
+  .ticket-pass ul {
+    width: 75%;
+  }
+  .notices {
+    top: 125px;
+  }
+  .ticket-partners ul {
+    width: 50%;
+  } 
+  #venue .portfolio {
+    top: 25%; 
+  }
+}
+@media screen and and (min-device-width: 1400px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   header .container {
     top: 60px;
     left: 50px;
