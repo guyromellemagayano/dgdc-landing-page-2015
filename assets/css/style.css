@@ -2133,7 +2133,7 @@ footer .container .ticket-info h1 a {
 }
 #jojie .text-container p, #harvey .text-container p, #marvin .text-container p, #april .text-container p, 
 #patrick .text-container p, #lesterCarlo .text-container p {
-  text-align: justify;
+  text-align: left;
   width: 100%;
   display: block;
   padding: 10px 0 0;
@@ -3326,7 +3326,7 @@ footer .container .ticket-info h1 a {
   body img.bc-logo.dti {
     width: 100px;
   }
-  body .event-group .partner,Ã‚Â body .event-group .present {
+  body .event-group .partner,ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â body .event-group .present {
     width: 90%;
     top: 0;
   }
@@ -3863,11 +3863,18 @@ footer .container .ticket-info h1 a {
   }
 }
 @media screen and (min-width: 1366px) {
-  #jojie .text-container, #marvin .text-container, 
-  #patrick .text-container, #harvey .text-container, 
-  #april .text-container, #lesterCarlo .text-container {
+  #jojie .text-container, #harvey .text-container {
     width: 45%;
-    top: 5%;
+    top: 0;
+  }
+  #patrick .text-container, #april .text-container, 
+  #marvin .text-container {
+    width: 45%;
+    top: -7%;
+  }
+  #lesterCarlo .text-container {
+    top: -5%;
+    width: 45%;
   }
   .ticket-pass ul {
     width: 75%;
