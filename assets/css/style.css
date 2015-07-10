@@ -2829,7 +2829,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- 320 x 480 ----------- */
-@media screen and (max-device-width: 480px) and (min-device-width: 320px) {
+@media all and (max-device-width: 480px) and (min-device-width: 320px) {
   body .event-group, .ip-header #container-alt {
     width: 100% !important;
     position: absolute !important;
@@ -3302,7 +3302,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- 360 x 640 ----------- */
-@media screen and (max-device-width: 640px) and (min-device-width: 360px) {
+@media all and (max-device-width: 640px) and (min-device-width: 360px) {
   body .event-group, .ip-header #container-alt {
     width: 100% !important;
     position: absolute !important;
@@ -3709,7 +3709,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- 384 x 640 ----------- */
-@media screen and (max-device-width: 640px) and (min-device-width: 384px) {
+@media all and (max-device-width: 640px) and (min-device-width: 384px) {
   body img.bc-logo.uic, body img.bc-logo.dti {
     position: relative;
     margin: 0 15px;
@@ -3718,7 +3718,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- 375 x 667 ----------- */
-@media screen and (max-device-width: 667px) and (min-device-width: 375px) {
+@media all and (max-device-width: 667px) and (min-device-width: 375px) {
   header .container {
     top: 70px;
     left: 0;
@@ -3774,7 +3774,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- 414 x 736 ----------- */
-@media screen and (max-device-width: 736px) and (min-device-width: 414px) {
+@media all and (max-device-width: 736px) and (min-device-width: 414px) {
   body img.bc-logo.uic, body img.bc-logo.dti {
     left: 45px;
   }
@@ -4024,7 +4024,7 @@ footer .container .ticket-info h1 a {
 }
 
 /* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) { 
+@media all and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) { 
   #jojie .text-container, #marvin .text-container, 
   #patrick .text-container, #harvey .text-container, 
   #april .text-container, #lesterCarlo .text-container {
@@ -4057,7 +4057,7 @@ footer .container .ticket-info h1 a {
     top: 2%;
   }
 }
-@media screen and (min-width: 1366px) {
+@media all and (min-width: 1366px) {
   #jojie .text-container, #harvey .text-container {
     width: 45%;
     top: 0;
@@ -4084,7 +4084,7 @@ footer .container .ticket-info h1 a {
     top: 25%; 
   }
 }
-@media screen and (min-device-width: 1400px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media all and (min-device-width: 1400px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   header .container {
     top: 60px;
     left: 50px;
