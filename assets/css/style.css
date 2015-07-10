@@ -2133,7 +2133,7 @@ footer .container .ticket-info h1 a {
 }
 #jojie .text-container p, #harvey .text-container p, #marvin .text-container p, #april .text-container p, 
 #patrick .text-container p, #lesterCarlo .text-container p {
-  text-align: left;
+  text-align: justify;
   width: 100%;
   display: block;
   padding: 10px 0 0;
@@ -2926,7 +2926,7 @@ footer .container .ticket-info h1 a {
     margin: 10px auto 15px;
   }
   #scene .layer.main {
-    top: 45%;
+    top: 45% !important;
     right: 0;
     width: 120% !important;
     left: -13%;
@@ -2944,17 +2944,17 @@ footer .container .ticket-info h1 a {
   #scene .layer.pic1 {
     left: 70% !important;
     z-index: 2;
-    top: 65%;
+    top: 65% !important;
   }
   #scene .layer.pic2 {
     left: 5% !important;
     z-index: 3;
-    top: 8%;
+    top: 8% !important;
   }
   #scene .layer.pic3 {
     left: 3% !important;
     z-index: 4;
-    top: 42%;
+    top: 42% !important;
   }
   #scene .layer.pic4 {
     top: 47% !important;
@@ -2963,7 +2963,7 @@ footer .container .ticket-info h1 a {
   }
   #scene .layer.pic5 {
     left: 7% !important;
-    top: 30%;
+    top: 30% !important;
   }
   #scene .layer.pic6 {
     left: 15% !important;
@@ -2978,46 +2978,46 @@ footer .container .ticket-info h1 a {
   #scene .layer.pic8 {
     left: 85% !important;
     float: right;
-    top: 18%;
+    top: 18% !important;
   }
   #scene .layer.pic9 {
     left: 75% !important;
-    top: 5%;
+    top: 5% !important;
   }
   #scene .layer.pic10 {
     left: 93% !important;
     z-index: 6;
-    top: 40%;
+    top: 40% !important;
   }
   #scene .layer.pic11 {
     left: 0 !important;
-    top: 92%;
+    top: 92% !important;
   }
   #scene .layer.pic12 {
     left: 85% !important;
     z-index: 8;
-    top: 90%;
+    top: 90% !important;
   }
   #scene .layer.pic13 {
     left: 95% !important;
-    top: 5%;
+    top: 5% !important;
   }
   #scene .layer.pic14 {
     left: 12% !important;
     z-index: 2;
-    top: 55%;
+    top: 55% !important;
   }
   #scene .layer.pic15 {
     left: 68% !important;
-    top: 46%;
+    top: 46% !important;
   }
   #scene .layer.pic16 {
     left: 58% !important;
-    top: 80%;
+    top: 80% !important;
   }
   #scene .layer.pic17 {
     left: 50% !important;
-    top: 24%;
+    top: 24% !important;
   }
   #scene .layer.pic18 {
     left: 12% !important;
@@ -3130,7 +3130,7 @@ footer .container .ticket-info h1 a {
     width: 100%;
     line-height: 30px;
     left: 0;
-    font-size: 16px;
+    font-size: 13px;
   }
   #about .portfolio {
     margin: 1em auto; 
@@ -3142,7 +3142,9 @@ footer .container .ticket-info h1 a {
   #about .text-container header ul.speaker-list li {
     width: 100%;
     height: auto;
-  }
+  
+    font-size: 12px;
+}
   #venue header {
     text-align: center;
   }
@@ -3401,7 +3403,7 @@ footer .container .ticket-info h1 a {
     right: 0;
 }
   #scene .layer.main {
-    top: 45%;
+    top: 45% !important;
     right: 0;
     width: 120% !important;
     left: -13%;
@@ -3571,7 +3573,8 @@ footer .container .ticket-info h1 a {
     line-height: 43px;
     left: 40px;
     top: 80px;
-  }
+  
+}
   #about .text-container header ul li span.year-img.pic-2012 {
     top: 295px;
   }
@@ -3744,10 +3747,9 @@ footer .container .ticket-info h1 a {
   footer .container .ticket-info > h1.deposit-info, 
   footer .container .ticket-info > h1.ticket-link {
     text-align: center;
-  
     font-size: 18px;
     line-height: 20px;
-}
+  }
   footer .container .ticket-info {
     text-align: center;
     float: none;
@@ -3755,9 +3757,8 @@ footer .container .ticket-info h1 a {
   }
   header .container .title-text .light-bigger {
     font-size: 18px;
-  
     line-height: 25px;
-}
+  }
   header .container .title-text .light-big {
     font-size: 18px;
   }
@@ -3776,6 +3777,201 @@ footer .container .ticket-info h1 a {
 @media screen and (max-device-width: 736px) and (min-device-width: 414px) {
   body img.bc-logo.uic, body img.bc-logo.dti {
     left: 45px;
+  }
+}
+
+/* ----------- 640 x 960 ----------- */
+@media only all and (min-width: 640px) and (max-width: 960px) { 
+  body .event-group .partner {
+    width: 58%;    
+  }
+  body .event-group .present {
+    width: 80%;
+  }
+  body .event-group {
+    top: 30px;
+  }
+  body img.bc-logo.wacom {
+    width: 220px;
+    top: -25px;
+  }
+  body img.bc-logo.hcit {
+    width: 100%;  
+    top: -40px;
+  }
+  body img.bc-logo.uic, body img.bc-logo.dti {
+    width: 140px;
+    left: 0;
+  }
+  body .loading h1 {
+    margin: 50px auto 20px;
+  }
+  #scene .layer.main {
+    top: 32% !important;
+  }
+  header {
+    padding: 35px 0 0;
+  }
+  header .container .title-text .light-bigger {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  header .container .title-text .light-big {
+    font-size: 21px;
+  }
+  header .container .title-text .bold-regular {
+    line-height: 32px;
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  header .container .title-text {
+    width: 100%;
+    line-height: 25px;
+  }
+  footer .social-media {
+    margin: 2em auto 3em;
+  }
+  footer .social-media ul li a {
+    font-size: 35px;
+  }
+  footer .container .ticket-info {
+    margin: 30px auto 0;
+  }
+  footer .container .ticket-info > h1.deposit-info, 
+  footer .container .ticket-info > h1.ticket-link {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .modal-dialog {
+    margin: 30px auto 0;
+  }
+  #jojie header, #marvin header, #april header, 
+  #harvey header, #patrick header, #lesterCarlo header, 
+  #venue header {
+    padding: 35px 0 25px;
+  }
+  #jojie .text-container p, #harvey .text-container p, 
+  #marvin .text-container p, #april .text-container p, 
+  #patrick .text-container p, #lesterCarlo .text-container p {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+  }
+  .portfolio ul li {
+    height: 260px;
+    width: 48%;
+  }
+  #jojie .portfolio ul li img {
+    margin: -40px auto;
+  }
+  #harvey .portfolio ul li img {
+    margin: -30px auto;
+  }
+  #patrick .portfolio ul li img {
+    margin: -30px auto;
+  }
+  #about .text-container header ul li {
+    width: 150px;
+    height: 150px;
+  }
+  #about .text-container header ul li span.year-img {
+    top: 60px;
+    left: 30px;
+  }
+  #about .text-container header ul li span.year-img.pic-2012 {
+    top: 60px;
+    left: 195px;
+  }
+  #about .text-container header ul li span.year-img.pic-2013 {
+    top: 60px;
+    left: 360px;
+  } 
+  #about .text-container p {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  #about .text-container header ul.speaker-list li {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  #venue header {
+    margin: -30px auto;
+  }
+  #venue header:first-child {
+    margin: 0 auto;
+  }
+  #venue header h4 {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  #venue .fa-iconset a {
+    width: 90px;
+    height: 100px;
+  }
+  #venue .fa-iconset a .fa {
+    padding: 20px 35px !important;
+    font-size: 40px;
+  }
+  #venue .fa-iconset a .fa.fa-map-marker {
+    padding: 20px 30px !important;
+  }
+  #venue .fa-iconset a .fa.fa-link {
+    padding: 20px 25px !important;
+  }
+  .ticket-pass ul li h3 {
+    font-size: 22px;
+  }
+  .ticket-pass ul li p {
+    font-size: 20px;
+    width: 70%;
+    line-height: 30px;
+  }
+  .notices ul li {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .ticket-partners ul li .brand-img-ticket {
+    width: 200px; 
+    height: 200px;
+  }
+  .ticket-partners ul li .brand-img-ticket img.ticket-shop-partner-1 {
+    width: 175px;
+    top: 25px;
+  }
+  .ticket-partners ul li .brand-img-ticket img.ticket-shop-partner-2 {
+    max-width: 250px;
+    top: 25px;
+    left: -13px;
+  }
+  .ticket-partners ul li .brand-img-ticket img.ticket-shop-partner-3 {
+    max-width: 250px;
+    left: -12px;
+    top: 25px;
+  }
+  .ticket-partners ul li .brand-ticket {
+    width: 85%;
+  }
+  .ticket-partners ul li p {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+  }
+  .sponsor-wrapper ul li {
+    height: 135px;
+  }
+  .sponsor-wrapper ul li img {
+    padding: 5px 15px 0;
+    margin: 0 auto;
+  }
+  .credits {
+    width: 80%;
+    margin: 2em auto 0;
+  }
+  .credits h4 {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
@@ -3824,7 +4020,6 @@ footer .container .ticket-info h1 a {
   }  
   #venue .text-container {
     top: -2%;
-    
   }
 }
 
