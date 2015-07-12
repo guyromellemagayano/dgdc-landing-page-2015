@@ -3,11 +3,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, height=device-height" />
 
   <meta name="author" content="Graphicon" />
-  <meta name="description" content="graphicon davao 4 davao's most anticipated graphic design conference" />
-  <meta name="copyright" content="" />
+  <meta name="description" content="Davao's Most Anticipated Graphic Design Conference" />
+  <meta name="copyright" content="2015 &copy; DGDC" />
   <meta name="keywords"  content="graphicon davao 4,graphic design,website design,ui/ux design,paper crafting,photography,comic illustration,animation,comic illustration,branding,smx convention center,sm lanang premier" />
   <meta name="Resource-type" content="Document" />
 
@@ -22,8 +22,6 @@
   <meta property="og:description" content="">
 
   <link rel="canonical" href="" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes">
 
   <meta name="google-site-verification" content="Ex6ImkaCbriIMqFstZLnxqCm77L9j7UBbtNO77VU9JI" />
 
@@ -59,7 +57,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/lightbox/dark.min.css" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 
   <!-- Modernizr -->
   <script src="assets/js/page-preloading-effect/modernizr.custom.min.js"></script>
@@ -78,7 +76,6 @@
 
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="assets/js/vendor/selectivizr.min.js"></script>
     <script type="text/javascript">var console = { log: function() {} };</script>
   <![endif]-->
 </head>
@@ -98,7 +95,6 @@
             <img class="bc-logo dti" src="assets/img/dti.png" />
           </div>
         </div>
-        <!-- <img class="bc-logo-large" src="assets/img/graphicon_logo.png" /> -->
         <div class="ip-loader">
           <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
             <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
@@ -1083,6 +1079,11 @@
                     <img src="assets/img/sponsors/secretGarden.png"/>
                   </a>
                 </li>
+                <li>
+                  <a href="#" class="sponsor-link">
+                    <img src="assets/img/sponsors/poisoncookies.png"/>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -1167,6 +1168,15 @@
     ga('set', '&uid', 'UA-63830569-1');
   </script>
 
+  <script type="text/javascript">
+    // Disable Zooming 
+    $("body").css({
+        "-moz-transform":"scale(1)",
+        "-webkit-transform":"scale(1)",
+        "-o-transform":"scale(1)",
+        "-ms-transform":"scale(1)"
+    });
+  </script>
   <!-- Lightbox Bootstrap -->
   <script src="assets/js/lightbox/ekko-lightbox.min.js"></script>
   <script src="assets/js/lightbox/ekko-lightbox-custom.min.js"></script>  

@@ -1867,7 +1867,7 @@ footer .container .ticket-info h1 a {
 #about .text-container p {
     width: 65%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
     left: -500%;
     position: relative;
@@ -3739,10 +3739,12 @@ footer .container .ticket-info>h1.deposit-info, footer .container .ticket-info>h
 }@media all and (min-device-width:1025px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1) {
     #april .text-container, #harvey .text-container, #jojie .text-container, #lesterCarlo .text-container, #marvin .text-container, #patrick .text-container {
     width: 40%;
-    top: -3%}
+    top: -3%;
+    padding: 0 3em 3em;
+}
 #april .text-container p, #harvey .text-container p, #jojie .text-container p, #lesterCarlo .text-container p, #marvin .text-container p, #patrick .text-container p {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .ticket-pass ul {
     width: 95%}
@@ -3754,20 +3756,20 @@ footer .container .ticket-info>h1.deposit-info, footer .container .ticket-info>h
 #venue .portfolio {
     top: 30%}
 footer .container {
-    top: 83%}
+    top: 80%;}
 footer .social-media {
     right: 3%;
     top: 2%}
 }@media all and (min-width:1366px) {
     #harvey .text-container, #jojie .text-container {
     width: 45%;
-    top: 0;
+    top: -28px;
 }
 #april .text-container, #marvin .text-container, #patrick .text-container {
     width: 45%;
-    top: -7%}
+    top: -10.35%;}
 #lesterCarlo .text-container {
-    top: -5%;
+    top: -6.75%;
     width: 45%}
 .ticket-pass ul {
     width: 75%}
