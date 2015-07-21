@@ -5,7 +5,7 @@
   font-weight: 400;
   font-style: normal;
 }
-*, :after, :before {
+div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -162,6 +162,40 @@ footer h1, footer h2, footer h3, footer h4, header h1, header h2, header h3, hea
   height: 100%;
   z-index: 1;
   top: 0;
+}
+.container#thanks-section .message {
+  position: fixed;
+  width: 650px;
+  height: 370px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 2500px;
+  z-index: 999;
+  border: 10px solid #fff;
+  background: #fea500;
+}
+.container#thanks-section .message .text-info {
+  padding: 2em 3em;
+  width: 100%;
+  color: #fff;
+  font-weight: bolder;
+  display: block;
+}
+.container#thanks-section .message .text-info h1 {
+  font-size: 93px;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px auto;
+  line-height: 80px;
+  text-align: center;
+}
+.container#thanks-section .message .text-info h3 {
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
 }
 .ip-header {
   position: fixed;
@@ -1510,6 +1544,113 @@ header .container>hr {
   position: absolute;
   z-index: 1;
 }
+#thanks-section #scene .layer.main {
+  width: 95%;
+  z-index: 1;
+  top: -150%;
+  right: 3%;
+}
+#thanks-section #scene .layer.pic1, #thanks-section #scene .layer.pic10, #thanks-section #scene .layer.pic11, #thanks-section #scene .layer.pic12, #thanks-section #scene .layer.pic13, #thanks-section #scene .layer.pic14, #thanks-section #scene .layer.pic15, #thanks-section #scene .layer.pic16, #thanks-section #scene .layer.pic17, #thanks-section #scene .layer.pic18, #thanks-section #scene .layer.pic19, #thanks-section #scene .layer.pic2, #thanks-section #scene .layer.pic3, #thanks-section #scene .layer.pic4, #thanks-section #scene .layer.pic5, #thanks-section #scene .layer.pic6, #thanks-section #scene .layer.pic7, #thanks-section #scene .layer.pic8, #thanks-section #scene .layer.pic9 {
+  top: -1000%;
+  opacity: 1;
+}
+#thanks-section #scene .layer.pic1 {
+  left: 55% !important;
+  width: 140px;
+  z-index: 2;
+}
+#thanks-section #scene .layer.pic2 {
+  left: 32% !important;
+  width: 85px;
+  z-index: 3;
+}
+#thanks-section #scene .layer.pic3 {
+  left: 24% !important;
+  width: 90px;
+  z-index: 4;
+}
+#thanks-section #scene .layer.pic4 {
+  top: -150%;
+  left: 45% !important;
+  width: 140px;
+  z-index: 5;
+}
+#thanks-section #scene .layer.pic5 {
+  left: 13% !important;
+  width: 100px;
+}
+#thanks-section #scene .layer.pic6 {
+  width: 65px;
+  left: 15% !important;
+}
+#thanks-section #scene .layer.pic7 {
+  left: 50% !important;
+  width: 150px;
+  float: right;
+  z-index: 8;
+}
+#thanks-section #scene .layer.pic8 {
+  left: 85% !important;
+  width: 120px;
+  float: right;
+}
+#thanks-section #scene .layer.pic9 {
+  left: 45% !important;
+  width: 90px;
+}
+#thanks-section #scene .layer.pic10 {
+  left: 80% !important;
+  width: 135px;
+  z-index: 6;
+}
+#thanks-section #scene .layer.pic11 {
+  left: 0 !important;
+  width: 100px;
+}
+#thanks-section #scene .layer.pic12 {
+  left: -2% !important;
+  width: 135px;
+  z-index: 8;
+}
+#thanks-section #scene .layer.pic13 {
+  left: 100% !important;
+  width: 75px;
+}
+#thanks-section #scene .layer.pic14 {
+  left: 80% !important;
+  width: 120px;
+  z-index: 2;
+}
+#thanks-section #scene .layer.pic15 {
+  left: 68% !important;
+  width: 75px;
+}
+#thanks-section #scene .layer.pic16 {
+  left: 58% !important;
+  width: 100px;
+}
+#thanks-section #scene .layer.pic17 {
+  left: 96% !important;
+  width: 70px;
+}
+#thanks-section #scene .layer.pic18 {
+  left: 40% !important;
+  width: 80px;
+}
+#thanks-section #scene .layer.pic19 {
+  left: 30% !important;
+  width: 155px;
+  z-index: 7;
+}
+#thanks-section #scene .layer img {
+  width: 100% !important;
+  height: inherit;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
 footer {
   position: absolute;
   bottom: 0;
@@ -2553,6 +2694,9 @@ footer .container .ticket-info h1 a {
 #fp-nav {
   top: 50% !important;
 }
+#alt #fp-nav.right {
+  display: none;
+}
 #fp-nav ul li:before {
   content: '';
   border-left: 2px solid #fff;
@@ -2650,6 +2794,30 @@ footer .container .ticket-info h1 a {
 .slimScrollBar {
   border-radius: 0 !important;
   background: #fff !important;
+}
+#social-media-section {
+  width: 100%;
+  display: block;
+  padding: 2em;
+  margin: 0 auto;
+}
+#social-media-section p {
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+#social-media-section ul {
+  margin: 20px auto;
+  width: 173px;
+  padding: 0;
+}
+#social-media-section ul li {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 30px;
+}
+#social-media-section ul li a {
+  color: #fff;
 }
 @media all and (max-device-width:480px) and (min-device-width:320px) {
   .ip-header #container-alt, body .event-group {
@@ -3780,7 +3948,8 @@ footer .social-media {
   width: 50%}
 #venue .portfolio {
   top: 25%}
-}@media all and (min-device-width:1400px) and (max-device-width:1600px) and (-webkit-min-device-pixel-ratio:1) {
+}
+@media all and (min-device-width:1400px) and (max-device-width:1600px) and (-webkit-min-device-pixel-ratio:1) {
   header .container {
   top: 60px;
   left: 50px;
