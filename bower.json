@@ -1,0 +1,39 @@
+{
+  "name": "DGDC Graphicon",
+  "authors": [
+    "Guy Romelle Magayano"
+  ],
+  "description": "The most anticipated graphic design conference in Davao City",
+  "main": "main.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "dgdc",
+    "graphicon",
+    "davao",
+    "graphic",
+    "designers",
+    "community",
+    "duaad",
+    "united",
+    "association",
+    "of",
+    "animators",
+    "and",
+    "designers",
+    "responsive",
+    "creative"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
